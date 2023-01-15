@@ -1,0 +1,395 @@
+
+{
+    "name": "LIN_ch-LIN_ch (2022-12-05-013314) - 0",
+    "start": 1670193194744,
+    "stop": 1670193195434,
+    "description": "LIN_ch-LIN_ch (2022-12-05-013314)",
+    "stage": "finished",
+    "status": "BROKEN",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1670193194138,
+            "stop": 1670193194742,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1670193194140,
+            "stop": 1670193194728,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1670193194140,
+            "stop": 1670193194730,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-064e3 - 0: Open apprtc web page and join a room",
+            "start": 1670193194744,
+            "stop": 1670193195418,
+            "description": "Open apprtc web page and join a room",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_JoinRoomStep",
+                    "type": "image/png",
+                    "source": "7fc713c1-5684-4ef9-9fa7-edc448865f96-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "eb6a239f-0999-429d-ba30-bad572869fe6-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED\n  (Session info: chrome=108.0.5359.94)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.hcRGSW}, goog:chromeOptions: {debuggerAddress: localhost:36679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 064e373e0a6272d3b87890a136a...}\nSession ID: 064e373e0a6272d3b87890a136a2a3ea\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)\n\tat org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+            }
+        },
+        {
+            "name": "ch108_LINUX-064e3 - 0: Verify that the ICE connection state is 'connected'",
+            "start": 1670193195418,
+            "stop": 1670193195419,
+            "description": "Verify that the ICE connection state is 'connected'",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-064e3 - 0: Verify that the remote video is actually playing",
+            "start": 1670193195419,
+            "stop": 1670193195419,
+            "description": "Verify that the remote video is actually playing",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-064e3 - 0: Getting stats from [\"appController.call_.pcClient_.pc_\"]",
+            "start": 1670193195419,
+            "stop": 1670193195419,
+            "description": "Getting stats from [\"appController.call_.pcClient_.pc_\"]",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-064e3 - 0: Get a screenshot",
+            "start": 1670193195419,
+            "stop": 1670193195419,
+            "description": "Get a screenshot",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-064e3 - 0: Gets the webrtc-internals dump.",
+            "start": 1670193195420,
+            "stop": 1670193195420,
+            "description": "Gets the webrtc-internals dump.",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-f2a4d - 1: Open apprtc web page and join a room",
+            "start": 1670193194744,
+            "stop": 1670193195433,
+            "description": "Open apprtc web page and join a room",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_JoinRoomStep",
+                    "type": "image/png",
+                    "source": "5fdb54cc-d55e-489d-89af-529cb1dc1126-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "27f3571d-8c03-4afb-be72-64a14167c123-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED\n  (Session info: chrome=108.0.5359.94)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.xuCiBG}, goog:chromeOptions: {debuggerAddress: localhost:43805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f2a4d073977766dc8364756363b...}\nSession ID: f2a4d073977766dc8364756363bf3bfb\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)\n\tat org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+            }
+        },
+        {
+            "name": "ch108_LINUX-f2a4d - 1: Verify that the ICE connection state is 'connected'",
+            "start": 1670193195433,
+            "stop": 1670193195433,
+            "description": "Verify that the ICE connection state is 'connected'",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-f2a4d - 1: Verify that the remote video is actually playing",
+            "start": 1670193195433,
+            "stop": 1670193195433,
+            "description": "Verify that the remote video is actually playing",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-f2a4d - 1: Getting stats from [\"appController.call_.pcClient_.pc_\"]",
+            "start": 1670193195433,
+            "stop": 1670193195433,
+            "description": "Getting stats from [\"appController.call_.pcClient_.pc_\"]",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-f2a4d - 1: Get a screenshot",
+            "start": 1670193195434,
+            "stop": 1670193195434,
+            "description": "Get a screenshot",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-f2a4d - 1: Gets the webrtc-internals dump.",
+            "start": 1670193195434,
+            "stop": 1670193195434,
+            "description": "Gets the webrtc-internals dump.",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1670193195434,
+            "stop": 1670193195570,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": true,
+        "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+        "trace": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED\n  (Session info: chrome=108.0.5359.94)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.hcRGSW}, goog:chromeOptions: {debuggerAddress: localhost:36679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 064e373e0a6272d3b87890a136a...}\nSession ID: 064e373e0a6272d3b87890a136a2a3ea\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)\n\tat org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    "uuid": "dacbf1e3-af1c-42de-b195-be6e8c5c17a5",
+    "fullName": "org.webrtc.kite.apprtc.tests.IceConnectionTest",
+    "historyId": "a9e85229-4e68-4f3a-be64-32cc36c82d1d",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.apprtc.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.apprtc.tests.IceConnectionTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "ethem"
+        },
+        {
+            "name": "suite",
+            "value": "IceConnectionTest  (2022-12-05-013314)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "IceConnectionTest [2022-12-05-013314]"
+        }
+    ]
+}

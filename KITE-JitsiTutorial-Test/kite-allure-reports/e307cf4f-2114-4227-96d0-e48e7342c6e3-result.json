@@ -1,0 +1,325 @@
+
+{
+    "name": "LIN_ch-LIN_ch (2023-01-06-102714) - 0",
+    "start": 1672990036070,
+    "stop": 1672990081770,
+    "description": "LIN_ch-LIN_ch (2023-01-06-102714)",
+    "stage": "finished",
+    "status": "FAILED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1672990034469,
+            "stop": 1672990036067,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672990034473,
+            "stop": 1672990036027,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672990034473,
+            "stop": 1672990036027,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-f5be2 - 0: Open https://meet.jit.si/ethem",
+            "start": 1672990036070,
+            "stop": 1672990077930,
+            "description": "Open https://meet.jit.si/ethem",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-2150f - 1: Open https://meet.jit.si/ethem",
+            "start": 1672990036070,
+            "stop": 1672990079400,
+            "description": "Open https://meet.jit.si/ethem",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-f5be2 - 0: Checking if Sent Video is playing properly",
+            "start": 1672990077930,
+            "stop": 1672990080398,
+            "description": "Checking if Sent Video is playing properly",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Sent Video",
+                    "type": "text/plain",
+                    "source": "eb9c62e2-8245-4283-829d-dc35591888e7-attachment.plain"
+                },
+                {
+                    "name": "error_screenshot_SentVideoCheck",
+                    "type": "image/png",
+                    "source": "a7aa2d03-b6d4-4363-9329-dbce462512ac-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "1e85ef35-8f6a-4577-ae61-e0eebbfdb979-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": true,
+                "muted": false,
+                "flaky": false,
+                "message": "The first video is blank\r\n",
+                "trace": "io.cosmosoftware.kite.exception.KiteTestException: The first video is blank\r\n\n\tat org.webrtc.kite.jitsitutorial.checks.SentVideoCheck.step(SentVideoCheck.java:42)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+            }
+        },
+        {
+            "name": "ch108_LINUX-f5be2 - 0: Check the other videos are being received OK",
+            "start": 1672990080399,
+            "stop": 1672990080399,
+            "description": "Check the other videos are being received OK",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-f5be2 - 0: Get a screenshot",
+            "start": 1672990080399,
+            "stop": 1672990080399,
+            "description": "Get a screenshot",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-2150f - 1: Checking if Sent Video is playing properly",
+            "start": 1672990079400,
+            "stop": 1672990081770,
+            "description": "Checking if Sent Video is playing properly",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Sent Video",
+                    "type": "text/plain",
+                    "source": "45cc0b4a-bcf1-4aff-bd44-aa45a091c17c-attachment.plain"
+                },
+                {
+                    "name": "error_screenshot_SentVideoCheck",
+                    "type": "image/png",
+                    "source": "b5b238cc-1693-4845-af61-fc99de608463-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "22802126-5090-4b8a-bd94-3d2c2a87d0e9-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": true,
+                "muted": false,
+                "flaky": false,
+                "message": "The first video is blank\r\n",
+                "trace": "io.cosmosoftware.kite.exception.KiteTestException: The first video is blank\r\n\n\tat org.webrtc.kite.jitsitutorial.checks.SentVideoCheck.step(SentVideoCheck.java:42)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+            }
+        },
+        {
+            "name": "ch108_LINUX-2150f - 1: Check the other videos are being received OK",
+            "start": 1672990081770,
+            "stop": 1672990081770,
+            "description": "Check the other videos are being received OK",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-2150f - 1: Get a screenshot",
+            "start": 1672990081770,
+            "stop": 1672990081770,
+            "description": "Get a screenshot",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1672990081771,
+            "stop": 1672990081913,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": true,
+        "muted": false,
+        "flaky": false,
+        "message": "The first video is blank\r\n",
+        "trace": "io.cosmosoftware.kite.exception.KiteTestException: The first video is blank\r\n\n\tat org.webrtc.kite.jitsitutorial.checks.SentVideoCheck.step(SentVideoCheck.java:42)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    "uuid": "e307cf4f-2114-4227-96d0-e48e7342c6e3",
+    "fullName": "org.webrtc.kite.jitsitutorial.KiteJitsiTutorialTest",
+    "historyId": "9041a9d4-f15c-4786-a0d6-786e56e7ba7c",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.jitsitutorial"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.jitsitutorial.KiteJitsiTutorialTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "ethem"
+        },
+        {
+            "name": "suite",
+            "value": "JitsiTutorial Test  (2023-01-06-102714)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "JitsiTutorial  [2023-01-06-102714] (2023-01-06-102714)"
+        }
+    ]
+}

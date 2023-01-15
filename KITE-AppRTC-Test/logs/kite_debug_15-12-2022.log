@@ -1,0 +1,168 @@
+2022-12-15 00:25:27,093 [main] io.cosmosoftware.kite.util.TestUtils [] INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/js.iceconnection.apprtc.config.json' ...
+ 2022-12-15 00:25:27,126 [main] io.cosmosoftware.kite.manager.RoomManager [] INFO  - new RoomManager(2 max per room) for https://appr.tc
+ 2022-12-15 00:25:27,126 [main] io.cosmosoftware.kite.manager.RoomManager [] INFO  - Please make sure that you have enough room for all users.
+ 2022-12-15 00:25:27,127 [main] io.cosmosoftware.kite.manager.RoomManager [] INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-15 00:25:27,128 [main] org.webrtc.kite.config.Configurator [] INFO  - Finished reading the configuration file
+ 2022-12-15 00:25:27,128 [main] io.cosmosoftware.kite.report.Reporter [] INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/kite-allure-reports/
+ 2022-12-15 00:25:27,129 [main] io.cosmosoftware.kite.util.TestUtils [] DEBUG - Trying to create dir: /home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/kite-allure-reports
+ 2022-12-15 00:25:27,130 [main] org.webrtc.kite.config.Configurator [] DEBUG - Tuple = null
+ 2022-12-15 00:25:27,130 [main] org.webrtc.kite.Engine [] DEBUG - Assigning client to: [URL: http://localhost:4444/wd/hub - Available Slots: 5 - Network Profile: NONE]
+
+ 2022-12-15 00:25:27,130 [main] org.webrtc.kite.config.client.Client [] DEBUG - Assigning client to [URL: http://localhost:4444/wd/hub - Available Slots: 5 - Network Profile: NONE]
+
+ 2022-12-15 00:25:27,130 [main] org.webrtc.kite.Engine [] DEBUG - Assigning client to: [URL: http://localhost:4444/wd/hub - Available Slots: 4 - Network Profile: NONE]
+
+ 2022-12-15 00:25:27,130 [main] org.webrtc.kite.config.client.Client [] DEBUG - Assigning client to [URL: http://localhost:4444/wd/hub - Available Slots: 4 - Network Profile: NONE]
+
+ 2022-12-15 00:25:27,132 [pool-2-thread-1] org.webrtc.kite.TestRunThread [] INFO  - Running {"type":"interop","name":"IceConnectionTest","testImpl":"IceConnectionTest.js","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-15 00:25:27,134 [pool-2-thread-1] org.webrtc.kite.MatrixRunner [] INFO  - Executing {"type":"interop","name":"IceConnectionTest","testImpl":"IceConnectionTest.js","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2022-12-15 00:25:27,137 [pool-2-thread-1] org.webrtc.kite.TestManager [] INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-15 00:25:27,138 [pool-3-thread-1] org.webrtc.kite.tests.KiteJsTest [] INFO  -  KiteJsTest
+ 2022-12-15 00:25:27,139 [pool-3-thread-1] org.webrtc.kite.TestManager [] INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for IceConnectionTest): Estimating..
+           |--------------------------------------------------
+ 2022-12-15 00:25:27,140 [pool-3-thread-1] IceConnectionTest [] INFO  - execute(DEFAULT) for the test case: LIN_ch_108-LIN_ch_108 (2022-12-15-002527)
+ 2022-12-15 00:25:27,141 [pool-3-thread-1] IceConnectionTest [] INFO  - Not load test, init report for test
+ 2022-12-15 00:25:27,142 [pool-3-thread-1] IceConnectionTest [] INFO  - Finished filling out initial report for phase 
+ 2022-12-15 00:25:27,142 [pool-3-thread-1] IceConnectionTest [] INFO  - payload handling
+ 2022-12-15 00:25:27,142 [pool-3-thread-1] IceConnectionTest [] INFO  - the payload is {"url":"https://appr.tc","port":30000,"testTimeout":60,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair"]}}
+ 2022-12-15 00:25:27,142 [pool-3-thread-1] io.cosmosoftware.kite.util.TestUtils [] DEBUG - Trying to create dir: /home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/temp/IceConnectionTest.js_2022-12-15-002527_d7e62
+ 2022-12-15 00:25:27,146 [pool-3-thread-1] IceConnectionTest [] INFO  - Creating runners
+ 2022-12-15 00:25:27,146 [pool-3-thread-1] io.cosmosoftware.kite.util.TestUtils [] DEBUG - Trying to create dir: /home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/temp/IceConnectionTest.js_2022-12-15-002527_d7e62/0/screenshots
+ 2022-12-15 00:25:27,152 [pool-3-thread-1] io.cosmosoftware.kite.util.TestUtils [] DEBUG - Trying to create dir: /home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/temp/IceConnectionTest.js_2022-12-15-002527_d7e62/1/screenshots
+ 2022-12-15 00:25:27,155 [pool-3-thread-1] IceConnectionTest [] DEBUG - SETTING STEP PHASE FOR RUNNER TO DEFAULT
+ 2022-12-15 00:25:27,155 [pool-3-thread-1] IceConnectionTest [] DEBUG - SETTING STEP PHASE FOR RUNNER TO DEFAULT
+ 2022-12-15 00:25:27,156 [pool-3-thread-1] IceConnectionTest [] INFO  - Starting server on 30000...
+ 2022-12-15 00:25:27,157 [pool-3-thread-1] IceConnectionTest [] INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-15 00:25:27,158 [pool-4-thread-1] IceConnectionTest [] INFO  - JsTestRunner will execute in js/
+ 2022-12-15 00:25:27,159 [pool-4-thread-1] IceConnectionTest [] INFO  - Executing command: node IceConnectionTest.js 2 0 3d14f6b8-ad60-42f5-b819-3bea973b44b7 ./temp/IceConnectionTest.js_2022-12-15-002527_d7e62
+ 2022-12-15 00:25:27,158 [pool-4-thread-2] IceConnectionTest [] INFO  - JsTestRunner will execute in js/
+ 2022-12-15 00:25:27,160 [pool-4-thread-2] IceConnectionTest [] INFO  - Executing command: node IceConnectionTest.js 2 1 3d14f6b8-ad60-42f5-b819-3bea973b44b7 ./temp/IceConnectionTest.js_2022-12-15-002527_d7e62
+ 2022-12-15 00:25:27,363 [Thread-2] IceConnectionTest [] INFO  - [NodeServer 30000 ] Listening on port 30000
+ 2022-12-15 00:25:27,451 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ] (node:40078) Warning: Accessing non-existent property 'TestUtils' of module exports inside circular dependency
+ 2022-12-15 00:25:27,452 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ] (Use `node --trace-warnings ...` to show where the warning was created)
+ 2022-12-15 00:25:27,457 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ] (node:40080) Warning: Accessing non-existent property 'TestUtils' of module exports inside circular dependency
+ 2022-12-15 00:25:27,457 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ] (Use `node --trace-warnings ...` to show where the warning was created)
+ 2022-12-15 00:25:27,486 [Thread-2] IceConnectionTest [] INFO  - [NodeServer 30000 ] Connected
+ 2022-12-15 00:25:27,493 [Thread-2] IceConnectionTest [] INFO  - [NodeServer 30000 ] Connected
+ 2022-12-15 00:25:27,953 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ] Executing step: Open the apprtc url
+ 2022-12-15 00:25:27,964 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ] Executing step: Open the apprtc url
+ 2022-12-15 00:25:29,903 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ] WebDriverError: unknown error: net::ERR_CONNECTION_CLOSED
+ 2022-12-15 00:25:29,904 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]   (Session info: chrome=108.0.5359.98)
+ 2022-12-15 00:25:29,904 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     at Object.throwDecodedError (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/selenium-webdriver/lib/error.js:524:15)
+ 2022-12-15 00:25:29,905 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     at parseHttpResponse (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/selenium-webdriver/lib/http.js:587:13)
+ 2022-12-15 00:25:29,905 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     at Executor.execute (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/selenium-webdriver/lib/http.js:515:28)
+ 2022-12-15 00:25:29,906 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ 2022-12-15 00:25:29,907 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     at async Driver.execute (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/selenium-webdriver/lib/webdriver.js:741:17)
+ 2022-12-15 00:25:29,908 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     at async Object.open (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/kite-common/util/TestUtils.js:437:3)
+ 2022-12-15 00:25:29,909 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     at async OpenAppUrlStep.step (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/steps/OpenAppUrlStep.js:22:5)
+ 2022-12-15 00:25:29,909 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     at async OpenAppUrlStep.execute (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/kite-common/util/TestStep.js:34:9)
+ 2022-12-15 00:25:29,910 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     at async IceConnectionTest.testScript (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/IceConnectionTest.js:19:7)
+ 2022-12-15 00:25:29,910 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     at async IceConnectionTest.run (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/kite-common/util/KiteBaseTest.js:106:7) {
+ 2022-12-15 00:25:29,911 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]   remoteStacktrace: '#0 0x5592c2b582a3 <unknown>\n' +
+ 2022-12-15 00:25:29,911 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#1 0x5592c2916f77 <unknown>\n' +
+ 2022-12-15 00:25:29,911 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#2 0x5592c290ee35 <unknown>\n' +
+ 2022-12-15 00:25:29,911 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#3 0x5592c2901f27 <unknown>\n' +
+ 2022-12-15 00:25:29,912 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#4 0x5592c29032d9 <unknown>\n' +
+ 2022-12-15 00:25:29,912 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#5 0x5592c290229e <unknown>\n' +
+ 2022-12-15 00:25:29,913 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#6 0x5592c29013d2 <unknown>\n' +
+ 2022-12-15 00:25:29,913 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#7 0x5592c2901225 <unknown>\n' +
+ 2022-12-15 00:25:29,913 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#8 0x5592c28ffdc6 <unknown>\n' +
+ 2022-12-15 00:25:29,914 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#9 0x5592c2900244 <unknown>\n' +
+ 2022-12-15 00:25:29,914 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#10 0x5592c2918e88 <unknown>\n' +
+ 2022-12-15 00:25:29,914 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#11 0x5592c298bb05 <unknown>\n' +
+ 2022-12-15 00:25:29,915 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#12 0x5592c2973b32 <unknown>\n' +
+ 2022-12-15 00:25:29,915 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#13 0x5592c298b47c <unknown>\n' +
+ 2022-12-15 00:25:29,915 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#14 0x5592c2973903 <unknown>\n' +
+ 2022-12-15 00:25:29,916 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#15 0x5592c2946ece <unknown>\n' +
+ 2022-12-15 00:25:29,916 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#16 0x5592c2947fde <unknown>\n' +
+ 2022-12-15 00:25:29,917 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#17 0x5592c2ba863e <unknown>\n' +
+ 2022-12-15 00:25:29,917 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#18 0x5592c2babb79 <unknown>\n' +
+ 2022-12-15 00:25:29,918 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#19 0x5592c2b8e89e <unknown>\n' +
+ 2022-12-15 00:25:29,918 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#20 0x5592c2baca83 <unknown>\n' +
+ 2022-12-15 00:25:29,919 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#21 0x5592c2b81505 <unknown>\n' +
+ 2022-12-15 00:25:29,919 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#22 0x5592c2bcdca8 <unknown>\n' +
+ 2022-12-15 00:25:29,919 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#23 0x5592c2bcde36 <unknown>\n' +
+ 2022-12-15 00:25:29,919 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#24 0x5592c2be9333 <unknown>\n' +
+ 2022-12-15 00:25:29,920 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ]     '#25 0x7f09cb6d1b43 <unknown>\n'
+ 2022-12-15 00:25:29,920 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ] }
+ 2022-12-15 00:25:29,921 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ] Skipping step: Join a room
+ 2022-12-15 00:25:29,921 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ] Skipping step: Verify that the ICE connection state is 'connected'
+ 2022-12-15 00:25:29,921 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ] Skipping step: Verify that the remote video is actually playing
+ 2022-12-15 00:25:29,922 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ] Skipping step: Get the peer connection's stats
+ 2022-12-15 00:25:29,935 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ] WebDriverError: unknown error: net::ERR_CONNECTION_CLOSED
+ 2022-12-15 00:25:29,936 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]   (Session info: chrome=108.0.5359.98)
+ 2022-12-15 00:25:29,936 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     at Object.throwDecodedError (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/selenium-webdriver/lib/error.js:524:15)
+ 2022-12-15 00:25:29,937 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     at parseHttpResponse (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/selenium-webdriver/lib/http.js:587:13)
+ 2022-12-15 00:25:29,937 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     at Executor.execute (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/selenium-webdriver/lib/http.js:515:28)
+ 2022-12-15 00:25:29,938 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ 2022-12-15 00:25:29,938 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     at async Driver.execute (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/selenium-webdriver/lib/webdriver.js:741:17)
+ 2022-12-15 00:25:29,939 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     at async Object.open (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/kite-common/util/TestUtils.js:437:3)
+ 2022-12-15 00:25:29,939 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     at async OpenAppUrlStep.step (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/steps/OpenAppUrlStep.js:22:5)
+ 2022-12-15 00:25:29,939 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     at async OpenAppUrlStep.execute (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/kite-common/util/TestStep.js:34:9)
+ 2022-12-15 00:25:29,940 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     at async IceConnectionTest.testScript (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/IceConnectionTest.js:19:7)
+ 2022-12-15 00:25:29,940 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     at async IceConnectionTest.run (/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/node_modules/kite-common/util/KiteBaseTest.js:106:7) {
+ 2022-12-15 00:25:29,940 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]   remoteStacktrace: '#0 0x55f6abe522a3 <unknown>\n' +
+ 2022-12-15 00:25:29,941 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#1 0x55f6abc10f77 <unknown>\n' +
+ 2022-12-15 00:25:29,941 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#2 0x55f6abc08e35 <unknown>\n' +
+ 2022-12-15 00:25:29,941 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#3 0x55f6abbfbf27 <unknown>\n' +
+ 2022-12-15 00:25:29,942 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#4 0x55f6abbfd2d9 <unknown>\n' +
+ 2022-12-15 00:25:29,942 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#5 0x55f6abbfc29e <unknown>\n' +
+ 2022-12-15 00:25:29,942 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#6 0x55f6abbfb3d2 <unknown>\n' +
+ 2022-12-15 00:25:29,942 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#7 0x55f6abbfb225 <unknown>\n' +
+ 2022-12-15 00:25:29,942 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#8 0x55f6abbf9dc6 <unknown>\n' +
+ 2022-12-15 00:25:29,942 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#9 0x55f6abbfa244 <unknown>\n' +
+ 2022-12-15 00:25:29,942 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#10 0x55f6abc12e88 <unknown>\n' +
+ 2022-12-15 00:25:29,943 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#11 0x55f6abc85b05 <unknown>\n' +
+ 2022-12-15 00:25:29,943 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#12 0x55f6abc6db32 <unknown>\n' +
+ 2022-12-15 00:25:29,943 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#13 0x55f6abc8547c <unknown>\n' +
+ 2022-12-15 00:25:29,943 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#14 0x55f6abc6d903 <unknown>\n' +
+ 2022-12-15 00:25:29,943 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#15 0x55f6abc40ece <unknown>\n' +
+ 2022-12-15 00:25:29,943 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#16 0x55f6abc41fde <unknown>\n' +
+ 2022-12-15 00:25:29,943 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#17 0x55f6abea263e <unknown>\n' +
+ 2022-12-15 00:25:29,943 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#18 0x55f6abea5b79 <unknown>\n' +
+ 2022-12-15 00:25:29,943 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#19 0x55f6abe8889e <unknown>\n' +
+ 2022-12-15 00:25:29,944 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#20 0x55f6abea6a83 <unknown>\n' +
+ 2022-12-15 00:25:29,944 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#21 0x55f6abe7b505 <unknown>\n' +
+ 2022-12-15 00:25:29,944 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#22 0x55f6abec7ca8 <unknown>\n' +
+ 2022-12-15 00:25:29,944 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#23 0x55f6abec7e36 <unknown>\n' +
+ 2022-12-15 00:25:29,944 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#24 0x55f6abee3333 <unknown>\n' +
+ 2022-12-15 00:25:29,944 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ]     '#25 0x7f1f3ff12b43 <unknown>\n'
+ 2022-12-15 00:25:29,944 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ] }
+ 2022-12-15 00:25:29,944 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ] Skipping step: Join a room
+ 2022-12-15 00:25:29,945 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ] Skipping step: Verify that the ICE connection state is 'connected'
+ 2022-12-15 00:25:29,945 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ] Skipping step: Verify that the remote video is actually playing
+ 2022-12-15 00:25:29,945 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ] Skipping step: Get the peer connection's stats
+ 2022-12-15 00:25:32,981 [Thread-2] IceConnectionTest [] INFO  - [NodeServer 30000 ] user disconnected
+ 2022-12-15 00:25:32,987 [pool-4-thread-1] IceConnectionTest [] INFO  - [IceConnectionTest.js_0 ] wrote all data to file
+ 2022-12-15 00:25:33,010 [Thread-2] IceConnectionTest [] INFO  - [NodeServer 30000 ] user disconnected
+ 2022-12-15 00:25:33,011 [pool-4-thread-1] IceConnectionTest [] INFO  - JsTestRunner filePath = js//temp/IceConnectionTest.js_2022-12-15-002527_d7e62/0/result.json
+ 2022-12-15 00:25:33,013 [pool-4-thread-1] IceConnectionTest [] INFO  - resultFile = /home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/temp/IceConnectionTest.js_2022-12-15-002527_d7e62/0/result.json
+ 2022-12-15 00:25:33,013 [pool-4-thread-1] io.cosmosoftware.kite.util.TestUtils [] INFO  - Reading 'js//temp/IceConnectionTest.js_2022-12-15-002527_d7e62/0/result.json' ...
+ 2022-12-15 00:25:33,014 [pool-4-thread-2] IceConnectionTest [] INFO  - [IceConnectionTest.js_1 ] wrote all data to file
+ 2022-12-15 00:25:33,025 [pool-4-thread-2] IceConnectionTest [] INFO  - JsTestRunner filePath = js//temp/IceConnectionTest.js_2022-12-15-002527_d7e62/1/result.json
+ 2022-12-15 00:25:33,025 [pool-4-thread-2] IceConnectionTest [] INFO  - resultFile = /home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/js/temp/IceConnectionTest.js_2022-12-15-002527_d7e62/1/result.json
+ 2022-12-15 00:25:33,025 [pool-4-thread-2] io.cosmosoftware.kite.util.TestUtils [] INFO  - Reading 'js//temp/IceConnectionTest.js_2022-12-15-002527_d7e62/1/result.json' ...
+ 2022-12-15 00:25:33,027 [pool-3-thread-1] IceConnectionTest [] INFO  - Stopping server on 30000...
+ 2022-12-15 00:25:33,033 [Thread-2] IceConnectionTest [] INFO  - Server on 30000 thread is completed.
+ 2022-12-15 00:25:34,027 [pool-3-thread-1] IceConnectionTest [] INFO  - Server on 30000 process stopped.
+ 2022-12-15 00:25:34,028 [pool-3-thread-1] IceConnectionTest [] INFO  - Server on 30000 stopped.
+ 2022-12-15 00:25:34,028 [pool-3-thread-1] IceConnectionTest [] INFO  - execute(DEFAULT) completed.
+ 2022-12-15 00:25:34,033 [pool-3-thread-1] org.webrtc.kite.TestManager [] INFO  - Test FAILED
+ 2022-12-15 00:25:34,034 [pool-2-thread-1] org.webrtc.kite.MatrixRunner [] INFO  - Matrix runner at last phase, ending. 
+ 2022-12-15 00:25:34,034 [pool-2-thread-1] io.cosmosoftware.kite.util.TestUtils [] DEBUG - Trying to create dir: /home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/kite-allure-reports/retry-config
+ 2022-12-15 00:25:34,041 [pool-2-thread-1] IceConnectionTest [] WARN  - Adding [0, 0] to retry list..
+ 2022-12-15 00:25:34,043 [pool-2-thread-1] io.cosmosoftware.kite.util.TestUtils [] INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/js.iceconnection.apprtc.config.json' ...
+ 2022-12-15 00:25:34,043 [pool-2-thread-1] IceConnectionTest [] WARN  - Done! Some test cases might need to be rerun!
+ 2022-12-15 00:25:34,044 [pool-2-thread-1] io.cosmosoftware.kite.util.TestUtils [] INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/js.iceconnection.apprtc.config.json' ...
+ 2022-12-15 00:25:34,044 [pool-2-thread-1] org.webrtc.kite.MatrixRunner [] INFO  - shutdownExecutors() done.
+ 2022-12-15 00:25:34,045 [pool-2-thread-1] org.webrtc.kite.TestRunThread [] DEBUG - The following are results for {"type":"interop","name":"IceConnectionTest","testImpl":"IceConnectionTest.js","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true}:
+
+{"resultId":"86feef5f-89b7-4406-9498-0b15328532d0","startTime":"1671053127137","endTimestamp":"1671053134032","result":"{\"\":{\"name\":\"LIN_ch_108-LIN_ch_108 (2022-12-15-002527) - 0\",\"start\":1671053127156,\"stop\":1671053134028,\"description\":\"LIN_ch_108-LIN_ch_108 (2022-12-15-002527)\",\"stage\":\"finished\",\"status\":\"BROKEN\",\"parameters\":[],\"steps\":[{\"name\":\"Filling out reports, handling payload, creating runners..\",\"start\":1671053127142,\"stop\":1671053127155,\"description\":\"Filling out reports, handling payload, creating runners..\",\"stage\":\"finished\",\"status\":\"PASSED\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":false,\"message\":\"The test has passed successfully!\"}},{\"name\":\"[chrome] Open the apprtc url\",\"start\":310849808,\"stop\":310851759,\"description\":\"[chrome] Open the apprtc url\",\"stage\":\"finished\",\"status\":\"BROKEN\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":true,\"message\":\"unknown error: net::ERR_CONNECTION_CLOSED\\n  (Session info: chrome=108.0.5359.98)\"}},{\"name\":\"[chrome] Join a room\",\"start\":310851760,\"stop\":310851760,\"description\":\"[chrome] Join a room\",\"stage\":\"finished\",\"status\":\"SKIPPED\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":false,\"message\":\"The test has passed successfully!\"}},{\"name\":\"[chrome] Verify that the ICE connection state is 'connected'\",\"start\":310851760,\"stop\":310851760,\"description\":\"[chrome] Verify that the ICE connection state is 'connected'\",\"stage\":\"finished\",\"status\":\"SKIPPED\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":false,\"message\":\"The test has passed successfully!\"}},{\"name\":\"[chrome] Verify that the remote video is actually playing\",\"start\":310851760,\"stop\":310851760,\"description\":\"[chrome] Verify that the remote video is actually playing\",\"stage\":\"finished\",\"status\":\"SKIPPED\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":false,\"message\":\"The test has passed successfully!\"}},{\"name\":\"[chrome] Get the peer connection's stats\",\"start\":310851760,\"stop\":310851760,\"description\":\"[chrome] Get the peer connection's stats\",\"stage\":\"finished\",\"status\":\"SKIPPED\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":false,\"message\":\"The test has passed successfully!\"}},{\"name\":\"[chrome] Open the apprtc url\",\"start\":310849819,\"stop\":310851791,\"description\":\"[chrome] Open the apprtc url\",\"stage\":\"finished\",\"status\":\"BROKEN\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":true,\"message\":\"unknown error: net::ERR_CONNECTION_CLOSED\\n  (Session info: chrome=108.0.5359.98)\"}},{\"name\":\"[chrome] Join a room\",\"start\":310851791,\"stop\":310851792,\"description\":\"[chrome] Join a room\",\"stage\":\"finished\",\"status\":\"SKIPPED\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":false,\"message\":\"The test has passed successfully!\"}},{\"name\":\"[chrome] Verify that the ICE connection state is 'connected'\",\"start\":310851792,\"stop\":310851792,\"description\":\"[chrome] Verify that the ICE connection state is 'connected'\",\"stage\":\"finished\",\"status\":\"SKIPPED\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":false,\"message\":\"The test has passed successfully!\"}},{\"name\":\"[chrome] Verify that the remote video is actually playing\",\"start\":310851792,\"stop\":310851792,\"description\":\"[chrome] Verify that the remote video is actually playing\",\"stage\":\"finished\",\"status\":\"SKIPPED\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":false,\"message\":\"The test has passed successfully!\"}},{\"name\":\"[chrome] Get the peer connection's stats\",\"start\":310851792,\"stop\":310851792,\"description\":\"[chrome] Get the peer connection's stats\",\"stage\":\"finished\",\"status\":\"SKIPPED\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":false,\"message\":\"The test has passed successfully!\"}},{\"name\":\"Cleaning up and finishing the test\",\"start\":1671053134029,\"stop\":1671053134029,\"description\":\"Cleaning up and finishing the test\",\"stage\":\"finished\",\"status\":\"PASSED\",\"parameters\":[],\"steps\":[],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":false,\"message\":\"The test has passed successfully!\"}}],\"attachments\":[],\"statusDetails\":{\"known\":false,\"muted\":false,\"flaky\":true,\"message\":\"unknown error: net::ERR_CONNECTION_CLOSED\\n  (Session info: chrome=108.0.5359.98)\"},\"uuid\":\"3d14f6b8-ad60-42f5-b819-3bea973b44b7\",\"fullName\":\"org.webrtc.kite.tests.KiteJsTest\",\"historyId\":\"31fccf24-61cc-4ebc-8a73-79ecd6bc0016\",\"links\":[],\"labels\":[{\"name\":\"package\",\"value\":\"package org.webrtc.kite.tests\"},{\"name\":\"testClass\",\"value\":\"class org.webrtc.kite.tests.KiteJsTest\"},{\"name\":\"testMethod\",\"value\":\"execute\"},{\"name\":\"host\",\"value\":\"ethem\"},{\"name\":\"suite\",\"value\":\"IceConnectionTest\"},{\"name\":\"parentSuite\",\"value\":\"IceConnectionTest JS [2022-12-15-002527]\"}]}}"}
+END OF RESULTS
+
+ 

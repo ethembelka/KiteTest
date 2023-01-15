@@ -1,0 +1,10 @@
+org/webrtc/kite/example/checks/GmailSignInCheck.class
+org/webrtc/kite/example/steps/GmailSignInStep.class
+org/webrtc/kite/example/pages/GoogleSearchPage.class
+org/webrtc/kite/example/pages/GoogleResultPage.class
+org/webrtc/kite/example/pages/GmailPage.class
+org/webrtc/kite/example/checks/GoogleFirstResultCheck.class
+org/webrtc/kite/example/KiteExampleAuthTest.class
+org/webrtc/kite/example/steps/GoogleSearchStep.class
+org/webrtc/kite/example/pages/GmailSignInPage.class
+org/webrtc/kite/example/KiteExampleSearchTest.class

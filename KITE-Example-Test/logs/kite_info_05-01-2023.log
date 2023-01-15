@@ -1,0 +1,45 @@
+2023-01-05 20:32:45,318 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/configs/search.local.config.json' ...
+ 2023-01-05 20:32:45,364 INFO  - new RoomManager(1 max per room) for null
+ 2023-01-05 20:32:45,364 INFO  - Please make sure that you have enough room for all users.
+ 2023-01-05 20:32:45,364 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-01-05 20:32:45,365 INFO  - Finished reading the configuration file
+ 2023-01-05 20:32:45,366 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/kite-allure-reports/
+ 2023-01-05 20:32:45,376 INFO  - Running {"type":"interop","name":"KiteExampleSearchTest %ts","testImpl":"org.webrtc.kite.example.KiteExampleSearchTest","description":"This example test opens google and searches for Cosmo Software Consulting and verify the first result","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-01-05 20:32:45,378 INFO  - Executing {"type":"interop","name":"KiteExampleSearchTest %ts","testImpl":"org.webrtc.kite.example.KiteExampleSearchTest","description":"This example test opens google and searches for Cosmo Software Consulting and verify the first result","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :1
+ 2023-01-05 20:32:45,381 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-01-05 20:32:45,384 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for KiteExampleSearchTest %ts): Estimating..
+           |--------------------------------------------------
+ 2023-01-05 20:32:45,385 INFO  - execute(DEFAULT) for the test case: LIN_ch_108 (2023-01-05-203245)
+ 2023-01-05 20:32:45,386 INFO  - Not load test, init report for test
+ 2023-01-05 20:32:45,387 INFO  - Finished filling out initial report for phase 
+ 2023-01-05 20:32:45,387 INFO  - payload handling
+ 2023-01-05 20:32:45,387 INFO  - the payload is {"test1":"ONE","test2":"TWO"}
+ 2023-01-05 20:32:45,388 INFO  - Creating runners
+ 2023-01-05 20:32:45,389 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-01-05 20:32:45,396 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"flags":[],"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":4,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2023-01-05 20:32:46,274 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-01-05 20:32:46,291 INFO  - Starting the execution of the test runners in parallel 
+ 2023-01-05 20:32:46,292 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-01-05 20:32:47,751 INFO  - ch108_LINUX-926b1 - 0:  [PASSED] Open https://google.com and look for CoSMo Software Consulting
+ 2023-01-05 20:32:48,769 ERROR - Step failed:
+   message = The title of the first Google result was not correct: 
+Expected: CoSMo Software - Cosmo Software but found Software & Consulting for the Digital Transformation of Companies | COSMO CONSULT
+
+ 2023-01-05 20:32:48,771 WARN  - ch108_LINUX-926b1 - 0: [SKIPPING] Get the browser console logs.
+ 2023-01-05 20:32:48,771 INFO  - ch108_LINUX-926b1 - 0:  [FAILED] Open first result on Google result page and verify the page title
+ 2023-01-05 20:32:48,771 INFO  - execute(DEFAULT) completed.
+ 2023-01-05 20:32:48,772 INFO  - Terminating, quiting webdriver
+ 2023-01-05 20:32:48,772 INFO  - Closing down webDrivers
+ 2023-01-05 20:32:48,837 INFO  - Test FAILED
+ 2023-01-05 20:32:48,837 INFO  - Matrix runner at last phase, ending. 
+ 2023-01-05 20:32:48,849 WARN  - Adding [0] to retry list..
+ 2023-01-05 20:32:48,852 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/configs/search.local.config.json' ...
+ 2023-01-05 20:32:48,855 WARN  - Done! Some test cases might need to be rerun!
+ 2023-01-05 20:32:48,855 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/configs/search.local.config.json' ...
+ 2023-01-05 20:32:48,857 INFO  - shutdownExecutors() done.
+ 

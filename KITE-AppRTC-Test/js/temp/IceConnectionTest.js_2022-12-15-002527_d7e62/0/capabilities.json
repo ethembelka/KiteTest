@@ -1,0 +1,77 @@
+
+{
+    "app": false,
+    "kind": "browser",
+    "logger": {
+        "name": "org.webrtc.kite.config.client.Client",
+        "debugEnabled": true
+    },
+    "count": 5,
+    "clientIndex": 0,
+    "fullReset": false,
+    "jsonConfig": {
+        "flags": [
+        ],
+        "headless": {
+        },
+        "browserName": {
+        },
+        "version": {
+        },
+        "platform": {
+        }
+    },
+    "capability": {
+        "headless": false,
+        "windowSize": "1920,1200",
+        "technologyPreview": false,
+        "useFakeMedia": true,
+        "flags": [
+        ],
+        "extraCapabilities": {
+        },
+        "maxInstances": 5,
+        "gateway": "none"
+    },
+    "paas": {
+        "specList": [
+        ],
+        "networkProfile": {
+            "corrupt": 0,
+            "delay": 0,
+            "cleanUpCommand": "",
+            "bandwidth": 0,
+            "packetloss": 0,
+            "name": "NONE",
+            "id": "",
+            "duplicate": 0,
+            "command": ""
+        },
+        "availableSlots": 3,
+        "type": "local",
+        "region": "NC",
+        "url": "http://localhost:4444/wd/hub"
+    },
+    "networkProfile": {
+        "corrupt": 0,
+        "delay": 0,
+        "cleanUpCommand": "",
+        "bandwidth": 0,
+        "packetloss": 0,
+        "name": "",
+        "id": "",
+        "duplicate": 0,
+        "command": ""
+    },
+    "exclude": false,
+    "browserSpecs": {
+        "extension": "",
+        "profile": "",
+        "driverString": "-Dwebdriver.chrome.driver=./chromedriver",
+        "browserName": "chrome",
+        "version": "108",
+        "deviceName": "unknown",
+        "platform": "LINUX"
+    },
+    "region": "NC"
+}

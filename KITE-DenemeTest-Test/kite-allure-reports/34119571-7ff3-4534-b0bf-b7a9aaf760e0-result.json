@@ -1,0 +1,157 @@
+
+{
+    "name": "LIN_fi (2022-12-29-173123) - 1",
+    "start": 1672324288545,
+    "stop": 1672324290016,
+    "description": "LIN_fi (2022-12-29-173123)",
+    "stage": "finished",
+    "status": "PASSED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1672324283112,
+            "stop": 1672324288544,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672324283115,
+            "stop": 1672324288543,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "fi108_LINUX-39810 - 0: Open https://stage-1.assistbox.io/",
+            "start": 1672324288546,
+            "stop": 1672324289811,
+            "description": "Open https://stage-1.assistbox.io/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "fi108_LINUX-39810 - 0: MyFirstCheck compares two random values and pass if 20 < 30",
+            "start": 1672324289811,
+            "stop": 1672324290016,
+            "description": "MyFirstCheck compares two random values and pass if 20 < 30",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Page-screenshot(2022-12-29-173129)",
+                    "type": "image/png",
+                    "source": "3308eae1-51ac-4014-aa57-faa805ccb5ac-attachment.png"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1672324290017,
+            "stop": 1672324290619,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "The test has passed successfully!"
+    },
+    "uuid": "34119571-7ff3-4534-b0bf-b7a9aaf760e0",
+    "fullName": "org.webrtc.kite.denemetest.KiteDenemeTestTest",
+    "historyId": "63d925f0-9bd4-4b61-9d5e-51c855dcde97",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.denemetest"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.denemetest.KiteDenemeTestTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "ethem"
+        },
+        {
+            "name": "suite",
+            "value": "DenemeTest Test  (2022-12-29-173120)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "DenemeTest  [2022-12-29-173120] (2022-12-29-173120)"
+        }
+    ]
+}

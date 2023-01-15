@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kite-framework" />
+        <module name="denemetest-test" />
+        <module name="amazontest-test" />
+        <module name="example-test" />
+        <module name="wpt-test" />
+        <module name="jitsitutorial-test" />
+        <module name="apprtc-test" />
+        <module name="kite-engine" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+{
+  "name": "AmazonTest %ts",
+  "grids": [
+    {
+      "type": "local",
+      "url": "http://localhost:4444/wd/hub"
+    }
+  ],
+  "tests": [
+    {
+      "name": "AmazonTest Test %ts",
+      "tupleSize": 1,
+      "description": "AmazonTest test description",
+      "testImpl": "org.webrtc.kite.amazontest.KiteAmazonTestTest",
+      "payload" : {
+        "url": "https://google.com"
+      }
+    }
+  ],
+  "clients": [
+    {
+      "browserName": "chrome",
+      "platform": "localhost"
+    },
+    {
+      "browserName": "firefox",
+      "platform": "localhost"
+    }
+  ]
+}

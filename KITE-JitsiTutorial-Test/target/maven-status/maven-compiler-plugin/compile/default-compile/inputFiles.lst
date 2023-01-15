@@ -1,0 +1,6 @@
+/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/src/main/java/org/webrtc/kite/jitsitutorial/steps/GetStatsStep.java
+/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/src/main/java/org/webrtc/kite/jitsitutorial/checks/SentVideoCheck.java
+/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/src/main/java/org/webrtc/kite/jitsitutorial/checks/ReceivedVideosCheck.java
+/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/src/main/java/org/webrtc/kite/jitsitutorial/KiteJitsiTutorialTest.java
+/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/src/main/java/org/webrtc/kite/jitsitutorial/pages/MainPage.java
+/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/src/main/java/org/webrtc/kite/jitsitutorial/steps/OpenUrlStep.java

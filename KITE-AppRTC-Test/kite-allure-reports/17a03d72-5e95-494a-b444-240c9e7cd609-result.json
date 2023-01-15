@@ -1,0 +1,132 @@
+
+{
+    "name": "LIN_ch_108-LIN_ch_108 (2022-12-26-222157) - 0",
+    "start": 1672082518265,
+    "stop": 1672082518265,
+    "description": "LIN_ch_108-LIN_ch_108 (2022-12-26-222157)",
+    "stage": "finished",
+    "status": "PASSED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1672082517678,
+            "stop": 1672082518264,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672082517680,
+            "stop": 1672082518222,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672082517680,
+            "stop": 1672082518262,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1672082518266,
+            "stop": 1672082518401,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "The test has passed successfully!"
+    },
+    "uuid": "17a03d72-5e95-494a-b444-240c9e7cd609",
+    "fullName": "org.webrtc.kite.apprtc.tests.AudioReceivingBitrateTest",
+    "historyId": "d5e11557-32a9-45d6-90e3-5d16c0c8a30d",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.apprtc.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.apprtc.tests.AudioReceivingBitrateTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "ethem"
+        },
+        {
+            "name": "suite",
+            "value": "AudioReceivingBitrateTest"
+        },
+        {
+            "name": "parentSuite",
+            "value": "IceConnectionTest Suite [2022-12-26-222149]"
+        }
+    ]
+}

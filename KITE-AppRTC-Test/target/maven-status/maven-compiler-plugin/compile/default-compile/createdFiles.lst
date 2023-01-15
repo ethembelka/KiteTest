@@ -1,0 +1,17 @@
+org/webrtc/kite/apprtc/checks/BitrateCheck.class
+org/webrtc/kite/apprtc/tests/VideoSendingBitrateTest.class
+org/webrtc/kite/apprtc/tests/AudioSendingBitrateTest.class
+org/webrtc/kite/apprtc/tests/LoopbackTest.class
+org/webrtc/kite/apprtc/pages/AppRTCJoinPage.class
+org/webrtc/kite/apprtc/checks/RemoteVideoHDCheck.class
+org/webrtc/kite/apprtc/checks/RemoteVideoDisplayCheck.class
+org/webrtc/kite/apprtc/tests/IceConnectionTest.class
+org/webrtc/kite/apprtc/tests/AudioReceivingBitrateTest.class
+org/webrtc/kite/apprtc/steps/JoinRoomStep.class
+org/webrtc/kite/apprtc/tests/NoVideoTest.class
+org/webrtc/kite/apprtc/checks/PeerConnectionCheck.class
+org/webrtc/kite/apprtc/tests/VideoReceivingBitrateTest.class
+org/webrtc/kite/apprtc/tests/AppRTCTest.class
+org/webrtc/kite/apprtc/pages/AppRTCMeetingPage.class
+org/webrtc/kite/apprtc/tests/HDTest.class
+org/webrtc/kite/apprtc/tests/NoAudioTest.class

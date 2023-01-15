@@ -1,0 +1,5 @@
+
+{
+    "Timestamp": "2023-01-06-004624",
+    "Console Log": "1672955177506:WARNING https://web-cdn.jitsi.net/meetjitsi_6890.3661/libs/lib-jitsi-meet.min.js?v=6890.3661 1:33876 \"2023-01-05T21:46:17.503Z\" \"[modules/RTC/TraceablePeerConnection.js]\" \"\\u003CXd._processLocalSSRCsMap>: \" \"TPC[id=2,type=JVB] No SSRCs found in the local SDP for track=LocalTrack[1,audio], stream=audio-0\"\r\n"
+}

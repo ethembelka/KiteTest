@@ -1,0 +1,5 @@
+
+{
+    "Timestamp": "2023-01-06-004615",
+    "Console Log": "1672955173104:WARNING https://web-cdn.jitsi.net/meetjitsi_6890.3661/libs/lib-jitsi-meet.min.js?v=6890.3661 1 The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu\r\n1672955174443:SEVERE chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED\r\n1672955174550:SEVERE chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED\r\n"
+}

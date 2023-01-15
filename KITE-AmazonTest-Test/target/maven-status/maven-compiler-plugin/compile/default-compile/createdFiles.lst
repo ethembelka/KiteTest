@@ -1,0 +1,4 @@
+org/webrtc/kite/amazontest/steps/OpenUrlStep.class
+org/webrtc/kite/amazontest/KiteAmazonTestTest.class
+org/webrtc/kite/amazontest/checks/MyFirstCheck.class
+org/webrtc/kite/amazontest/pages/MainPage.class

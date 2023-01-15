@@ -1,0 +1,292 @@
+
+{
+    "name": "LIN_ch_108-LIN_ch_108 (2022-12-26-222116) - 0",
+    "start": 1672082476620,
+    "stop": 1672082482189,
+    "description": "LIN_ch_108-LIN_ch_108 (2022-12-26-222116)",
+    "stage": "finished",
+    "status": "BROKEN",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1672082476603,
+            "stop": 1672082476619,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "[chrome] Open the apprtc url",
+            "start": 1340199276,
+            "stop": 1340199897,
+            "description": "[chrome] Open the apprtc url",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "unknown error: net::ERR_CONNECTION_CLOSED\n  (Session info: chrome=108.0.5359.124)"
+            }
+        },
+        {
+            "name": "[chrome] Join a room",
+            "start": 1340199898,
+            "stop": 1340199898,
+            "description": "[chrome] Join a room",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "[chrome] Verify that the ICE connection state is 'connected'",
+            "start": 1340199898,
+            "stop": 1340199898,
+            "description": "[chrome] Verify that the ICE connection state is 'connected'",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "[chrome] Verify that the remote video is actually playing",
+            "start": 1340199898,
+            "stop": 1340199898,
+            "description": "[chrome] Verify that the remote video is actually playing",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "[chrome] Get the peer connection's stats",
+            "start": 1340199898,
+            "stop": 1340199898,
+            "description": "[chrome] Get the peer connection's stats",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "[chrome] Open the apprtc url",
+            "start": 1340199315,
+            "stop": 1340199941,
+            "description": "[chrome] Open the apprtc url",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "unknown error: net::ERR_CONNECTION_CLOSED\n  (Session info: chrome=108.0.5359.124)"
+            }
+        },
+        {
+            "name": "[chrome] Join a room",
+            "start": 1340199941,
+            "stop": 1340199942,
+            "description": "[chrome] Join a room",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "[chrome] Verify that the ICE connection state is 'connected'",
+            "start": 1340199942,
+            "stop": 1340199943,
+            "description": "[chrome] Verify that the ICE connection state is 'connected'",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "[chrome] Verify that the remote video is actually playing",
+            "start": 1340199943,
+            "stop": 1340199943,
+            "description": "[chrome] Verify that the remote video is actually playing",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "[chrome] Get the peer connection's stats",
+            "start": 1340199943,
+            "stop": 1340199943,
+            "description": "[chrome] Get the peer connection's stats",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1672082482189,
+            "stop": 1672082482189,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": true,
+        "message": "unknown error: net::ERR_CONNECTION_CLOSED\n  (Session info: chrome=108.0.5359.124)"
+    },
+    "uuid": "ba68955d-ed6a-41ac-a5e1-560b47b5e9f1",
+    "fullName": "org.webrtc.kite.tests.KiteJsTest",
+    "historyId": "59273bc1-74ea-4d36-869e-6918fdaeecd1",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.tests.KiteJsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "ethem"
+        },
+        {
+            "name": "suite",
+            "value": "IceConnectionTest"
+        },
+        {
+            "name": "parentSuite",
+            "value": "IceConnectionTest JS [2022-12-26-222116]"
+        }
+    ]
+}

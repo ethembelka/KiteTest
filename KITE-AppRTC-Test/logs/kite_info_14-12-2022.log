@@ -1,0 +1,650 @@
+2022-12-14 00:41:59,169 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-14 00:41:59,190 INFO  - new RoomManager(2 max per room) for https://appr.tc
+ 2022-12-14 00:41:59,190 INFO  - Please make sure that you have enough room for all users.
+ 2022-12-14 00:41:59,190 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-14 00:41:59,191 INFO  - Finished reading the configuration file
+ 2022-12-14 00:41:59,191 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/kite-allure-reports/
+ 2022-12-14 00:41:59,193 INFO  - Running {"type":"interop","name":"IceConnectionTest %ts","testImpl":"org.webrtc.kite.apprtc.tests.IceConnectionTest","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-14 00:41:59,195 INFO  - Executing {"type":"interop","name":"IceConnectionTest %ts","testImpl":"org.webrtc.kite.apprtc.tests.IceConnectionTest","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 4 browser tuples with size :2
+ 2022-12-14 00:41:59,197 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-14 00:41:59,197 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-14 00:41:59,197 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-14 00:41:59,197 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-14 00:41:59,200 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/4
+           | ETA (for IceConnectionTest %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-14 00:41:59,201 INFO  - execute(DEFAULT) for the test case: LIN_ch_108-LIN_ch_108 (2022-12-14-004159)
+ 2022-12-14 00:41:59,202 INFO  - Not load test, init report for test
+ 2022-12-14 00:41:59,202 INFO  - Finished filling out initial report for phase 
+ 2022-12-14 00:41:59,202 INFO  - payload handling
+ 2022-12-14 00:41:59,202 INFO  - the payload is {"url":"https://appr.tc","takeScreenshotForEachTest":true,"getStats":{"enabled":true,"statsCollectionTime":2000,"statsCollectionInterval":2000,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair","track"]}}
+ 2022-12-14 00:41:59,203 INFO  - Creating runners
+ 2022-12-14 00:41:59,204 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-14 00:41:59,204 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2022-12-14 00:41:59,209 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"headless":{},"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-14 00:41:59,209 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"headless":{},"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-14 00:41:59,811 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-14 00:41:59,812 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-14 00:41:59,827 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-14 00:41:59,828 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2022-12-14 00:41:59,828 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-14 00:42:00,730 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=108.0.5359.98)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.98, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.XZHAE0}, goog:chromeOptions: {debuggerAddress: localhost:42265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f1100e387e9b375c79f77446d16...}
+Session ID: f1100e387e9b375c79f77446d167d844
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:00,732 WARN  - ch108_LINUX-f1100 - 1: [SKIPPING] Get the browser console logs.
+ 2022-12-14 00:42:00,732 INFO  - ch108_LINUX-f1100 - 1:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-14 00:42:00,732 WARN  - ch108_LINUX-f1100 - 1: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-14 00:42:00,732 WARN  - ch108_LINUX-f1100 - 1: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-14 00:42:00,732 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=108.0.5359.98)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.98, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.LuMMac}, goog:chromeOptions: {debuggerAddress: localhost:34699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b3477bf5fdb713c6ed10b48cbb1...}
+Session ID: b3477bf5fdb713c6ed10b48cbb1aef6f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:00,733 WARN  - ch108_LINUX-f1100 - 1: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-14 00:42:00,733 WARN  - ch108_LINUX-f1100 - 1: [SKIPPING] Get a screenshot
+ 2022-12-14 00:42:00,733 WARN  - ch108_LINUX-f1100 - 1: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-14 00:42:00,733 WARN  - ch108_LINUX-b3477 - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-14 00:42:00,733 INFO  - ch108_LINUX-b3477 - 0:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-14 00:42:00,734 WARN  - ch108_LINUX-b3477 - 0: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-14 00:42:00,734 WARN  - ch108_LINUX-b3477 - 0: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-14 00:42:00,734 WARN  - ch108_LINUX-b3477 - 0: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-14 00:42:00,734 WARN  - ch108_LINUX-b3477 - 0: [SKIPPING] Get a screenshot
+ 2022-12-14 00:42:00,735 WARN  - ch108_LINUX-b3477 - 0: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-14 00:42:00,735 INFO  - execute(DEFAULT) completed.
+ 2022-12-14 00:42:00,735 INFO  - Terminating, quiting webdriver
+ 2022-12-14 00:42:00,735 INFO  - Closing down webDrivers
+ 2022-12-14 00:42:00,870 INFO  - Test FAILED
+ 2022-12-14 00:42:00,871 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 1
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 1/4
+           | ETA (for IceConnectionTest %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-14 00:42:00,871 INFO  - execute(DEFAULT) for the test case: LIN_ch_108-LIN_fi_107 (2022-12-14-004200)
+ 2022-12-14 00:42:00,871 INFO  - Not load test, init report for test
+ 2022-12-14 00:42:00,871 INFO  - Finished filling out initial report for phase 
+ 2022-12-14 00:42:00,871 INFO  - payload handling
+ 2022-12-14 00:42:00,871 INFO  - the payload is {"url":"https://appr.tc","takeScreenshotForEachTest":true,"getStats":{"enabled":true,"statsCollectionTime":2000,"statsCollectionInterval":2000,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair","track"]}}
+ 2022-12-14 00:42:00,872 INFO  - Creating runners
+ 2022-12-14 00:42:00,872 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-14 00:42:00,872 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2022-12-14 00:42:00,874 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"headless":{},"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-14 00:42:00,874 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"headless":"false","browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-14 00:42:01,169 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-14 00:42:02,327 ERROR - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEAFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEAFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Command duration or timeout: 682 milliseconds
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at org.webrtc.kite.WebDriverFactory.createWebDriver(WebDriverFactory.java:232)
+	at org.webrtc.kite.config.client.Client.createWebDriver(Client.java:520)
+	at org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEAFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEAFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:02,329 ERROR - unknown(no Web Driver): Exception while populating webdriver: 1
+org.webrtc.kite.exception.KiteGridException: WebDriverException creating webdriver for 
+{"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"headless":"false","browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}:
+Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEAFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEAFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Command duration or timeout: 682 milliseconds
+	at org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)
+	at org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:02,329 INFO  - unknown(no Web Driver):  [FAILED] Initiate webDriver for client
+ 2022-12-14 00:42:02,331 ERROR - Error creating test runners : 
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.getCapabilities()" because "webDriver" is null
+	at io.cosmosoftware.kite.util.WebDriverUtils.isChrome(WebDriverUtils.java:403)
+	at org.webrtc.kite.apprtc.tests.IceConnectionTest.populateTestSteps(IceConnectionTest.java:50)
+	at org.webrtc.kite.tests.KiteBaseTest.createTestRunners(KiteBaseTest.java:120)
+	at org.webrtc.kite.tests.KiteBaseTest.init(KiteBaseTest.java:216)
+	at org.webrtc.kite.tests.KiteBaseTest.execute(KiteBaseTest.java:148)
+	at org.webrtc.kite.TestManager.call(TestManager.java:209)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:02,331 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-14 00:42:02,331 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-14 00:42:02,331 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2022-12-14 00:42:02,332 WARN  - ch108_LINUX-7b489 - 0: [SKIPPING] Open apprtc web page and join a room
+ 2022-12-14 00:42:02,332 WARN  - ch108_LINUX-7b489 - 0: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-14 00:42:02,332 WARN  - ch108_LINUX-7b489 - 0: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-14 00:42:02,332 WARN  - unknown(no Web Driver) - 1: [SKIPPING] Open apprtc web page and join a room
+ 2022-12-14 00:42:02,332 WARN  - unknown(no Web Driver) - 1: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-14 00:42:02,332 WARN  - ch108_LINUX-7b489 - 0: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-14 00:42:02,332 WARN  - unknown(no Web Driver) - 1: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-14 00:42:02,332 WARN  - ch108_LINUX-7b489 - 0: [SKIPPING] Get a screenshot
+ 2022-12-14 00:42:02,332 WARN  - ch108_LINUX-7b489 - 0: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-14 00:42:02,332 WARN  - unknown(no Web Driver) - 1: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-14 00:42:02,333 WARN  - unknown(no Web Driver) - 1: [SKIPPING] Get a screenshot
+ 2022-12-14 00:42:02,333 INFO  - execute(DEFAULT) completed.
+ 2022-12-14 00:42:02,333 INFO  - Terminating, quiting webdriver
+ 2022-12-14 00:42:02,333 INFO  - Closing down webDrivers
+ 2022-12-14 00:42:02,402 INFO  - Test FAILED
+ 2022-12-14 00:42:02,404 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 2
+           | Elapsed time: 0m1s (avg:0m1s)
+           | Running test case with ID: 2/4
+           | ETA (for IceConnectionTest %ts): 0m3s
+           |--------------------------------------------------
+ 2022-12-14 00:42:02,404 INFO  - execute(DEFAULT) for the test case: LIN_fi_107-LIN_ch_108 (2022-12-14-004202)
+ 2022-12-14 00:42:02,405 INFO  - Not load test, init report for test
+ 2022-12-14 00:42:02,405 INFO  - Finished filling out initial report for phase 
+ 2022-12-14 00:42:02,405 INFO  - payload handling
+ 2022-12-14 00:42:02,406 INFO  - the payload is {"url":"https://appr.tc","takeScreenshotForEachTest":true,"getStats":{"enabled":true,"statsCollectionTime":2000,"statsCollectionInterval":2000,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair","track"]}}
+ 2022-12-14 00:42:02,406 INFO  - Creating runners
+ 2022-12-14 00:42:02,407 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-14 00:42:02,407 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2022-12-14 00:42:02,410 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"headless":"false","browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-14 00:42:02,410 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"headless":{},"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-14 00:42:02,727 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-14 00:42:03,559 ERROR - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Command duration or timeout: 553 milliseconds
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at org.webrtc.kite.WebDriverFactory.createWebDriver(WebDriverFactory.java:232)
+	at org.webrtc.kite.config.client.Client.createWebDriver(Client.java:520)
+	at org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:03,560 ERROR - unknown(no Web Driver): Exception while populating webdriver: 0
+org.webrtc.kite.exception.KiteGridException: WebDriverException creating webdriver for 
+{"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"headless":"false","browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}:
+Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Command duration or timeout: 553 milliseconds
+	at org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)
+	at org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:03,560 INFO  - unknown(no Web Driver):  [FAILED] Initiate webDriver for client
+ 2022-12-14 00:42:03,560 ERROR - Error creating test runners : 
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.getCapabilities()" because "webDriver" is null
+	at io.cosmosoftware.kite.util.WebDriverUtils.isChrome(WebDriverUtils.java:403)
+	at org.webrtc.kite.apprtc.tests.IceConnectionTest.populateTestSteps(IceConnectionTest.java:50)
+	at org.webrtc.kite.tests.KiteBaseTest.createTestRunners(KiteBaseTest.java:120)
+	at org.webrtc.kite.tests.KiteBaseTest.init(KiteBaseTest.java:216)
+	at org.webrtc.kite.tests.KiteBaseTest.execute(KiteBaseTest.java:148)
+	at org.webrtc.kite.TestManager.call(TestManager.java:209)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:03,560 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-14 00:42:03,561 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-14 00:42:03,561 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2022-12-14 00:42:03,561 WARN  - unknown(no Web Driver) - 0: [SKIPPING] Open apprtc web page and join a room
+ 2022-12-14 00:42:03,561 WARN  - unknown(no Web Driver) - 0: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-14 00:42:03,561 WARN  - unknown(no Web Driver) - 0: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-14 00:42:03,561 WARN  - unknown(no Web Driver) - 0: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-14 00:42:03,562 WARN  - unknown(no Web Driver) - 0: [SKIPPING] Get a screenshot
+ 2022-12-14 00:42:03,562 INFO  - execute(DEFAULT) completed.
+ 2022-12-14 00:42:03,562 INFO  - Terminating, quiting webdriver
+ 2022-12-14 00:42:03,562 INFO  - Closing down webDrivers
+ 2022-12-14 00:42:03,627 INFO  - Test FAILED
+ 2022-12-14 00:42:03,629 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 3
+           | Elapsed time: 0m2s (avg:0m1s)
+           | Running test case with ID: 3/4
+           | ETA (for IceConnectionTest %ts): 0m2s
+           |--------------------------------------------------
+ 2022-12-14 00:42:03,630 INFO  - execute(DEFAULT) for the test case: LIN_fi_107-LIN_fi_107 (2022-12-14-004203)
+ 2022-12-14 00:42:03,630 INFO  - Not load test, init report for test
+ 2022-12-14 00:42:03,631 INFO  - Finished filling out initial report for phase 
+ 2022-12-14 00:42:03,632 INFO  - payload handling
+ 2022-12-14 00:42:03,632 INFO  - the payload is {"url":"https://appr.tc","takeScreenshotForEachTest":true,"getStats":{"enabled":true,"statsCollectionTime":2000,"statsCollectionInterval":2000,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair","track"]}}
+ 2022-12-14 00:42:03,633 INFO  - Creating runners
+ 2022-12-14 00:42:03,633 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-14 00:42:03,634 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2022-12-14 00:42:03,636 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"headless":"false","browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-14 00:42:03,636 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"headless":"false","browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-14 00:42:04,814 ERROR - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Command duration or timeout: 585 milliseconds
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at org.webrtc.kite.WebDriverFactory.createWebDriver(WebDriverFactory.java:232)
+	at org.webrtc.kite.config.client.Client.createWebDriver(Client.java:520)
+	at org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:04,814 ERROR - unknown(no Web Driver): Exception while populating webdriver: 1
+org.webrtc.kite.exception.KiteGridException: WebDriverException creating webdriver for 
+{"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"headless":"false","browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}:
+Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Command duration or timeout: 585 milliseconds
+	at org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)
+	at org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:04,815 INFO  - unknown(no Web Driver):  [FAILED] Initiate webDriver for client
+ 2022-12-14 00:42:04,824 ERROR - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Command duration or timeout: 598 milliseconds
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at org.webrtc.kite.WebDriverFactory.createWebDriver(WebDriverFactory.java:232)
+	at org.webrtc.kite.config.client.Client.createWebDriver(Client.java:520)
+	at org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:04,825 ERROR - unknown(no Web Driver): Exception while populating webdriver: 0
+org.webrtc.kite.exception.KiteGridException: WebDriverException creating webdriver for 
+{"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"headless":"false","browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}:
+Error forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}
+Command duration or timeout: 598 milliseconds
+	at org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)
+	at org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)
+	at org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:04,826 INFO  - unknown(no Web Driver):  [FAILED] Initiate webDriver for client
+ 2022-12-14 00:42:04,826 ERROR - Error creating test runners : 
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.getCapabilities()" because "webDriver" is null
+	at io.cosmosoftware.kite.util.WebDriverUtils.isChrome(WebDriverUtils.java:403)
+	at org.webrtc.kite.apprtc.tests.IceConnectionTest.populateTestSteps(IceConnectionTest.java:50)
+	at org.webrtc.kite.tests.KiteBaseTest.createTestRunners(KiteBaseTest.java:120)
+	at org.webrtc.kite.tests.KiteBaseTest.init(KiteBaseTest.java:216)
+	at org.webrtc.kite.tests.KiteBaseTest.execute(KiteBaseTest.java:148)
+	at org.webrtc.kite.TestManager.call(TestManager.java:209)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-14 00:42:04,826 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-14 00:42:04,827 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-14 00:42:04,827 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2022-12-14 00:42:04,827 WARN  - unknown(no Web Driver) - 0: [SKIPPING] Open apprtc web page and join a room
+ 2022-12-14 00:42:04,827 WARN  - unknown(no Web Driver) - 0: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-14 00:42:04,827 WARN  - unknown(no Web Driver) - 0: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-14 00:42:04,827 WARN  - unknown(no Web Driver) - 0: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-14 00:42:04,827 WARN  - unknown(no Web Driver) - 0: [SKIPPING] Get a screenshot
+ 2022-12-14 00:42:04,827 INFO  - execute(DEFAULT) completed.
+ 2022-12-14 00:42:04,828 INFO  - Terminating, quiting webdriver
+ 2022-12-14 00:42:04,828 INFO  - Closing down webDrivers
+ 2022-12-14 00:42:04,829 INFO  - Test FAILED
+ 2022-12-14 00:42:04,830 INFO  - Matrix runner at last phase, ending. 
+ 2022-12-14 00:42:04,833 WARN  - Adding [0, 0] to retry list..
+ 2022-12-14 00:42:04,835 WARN  - Adding [0, 1] to retry list..
+ 2022-12-14 00:42:04,836 WARN  - Adding [1, 0] to retry list..
+ 2022-12-14 00:42:04,837 WARN  - Adding [1, 1] to retry list..
+ 2022-12-14 00:42:04,837 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-14 00:42:04,838 WARN  - Done! Some test cases might need to be rerun!
+ 2022-12-14 00:42:04,838 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-14 00:42:04,838 INFO  - shutdownExecutors() done.
+ 

@@ -1,0 +1,164 @@
+
+{
+    "name": "LIN_fi (2022-12-27-204049) - 1",
+    "start": 1672162854255,
+    "stop": 1672162855581,
+    "description": "LIN_fi (2022-12-27-204049)",
+    "stage": "finished",
+    "status": "FAILED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1672162849832,
+            "stop": 1672162854254,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672162849834,
+            "stop": 1672162854253,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "fi108_LINUX-ce889 - 0: Open https://google.com",
+            "start": 1672162854255,
+            "stop": 1672162855538,
+            "description": "Open https://google.com",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "fi108_LINUX-ce889 - 0: MyFirstCheck compares two random values and pass if 56 < 26",
+            "start": 1672162855538,
+            "stop": 1672162855581,
+            "description": "MyFirstCheck compares two random values and pass if 56 < 26",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_MyFirstCheck",
+                    "type": "image/png",
+                    "source": "818f08f7-7b68-4414-9c57-f56841a884c0-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "2cb748c7-753e-4de7-9e2b-a5a56d6b06ca-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": true,
+                "muted": false,
+                "flaky": false,
+                "message": "MyFirstCheck failed, 56 >= 26\r\n",
+                "trace": "io.cosmosoftware.kite.exception.KiteTestException: MyFirstCheck failed, 56 >= 26\r\n\n\tat org.webrtc.kite.denemetest.checks.MyFirstCheck.step(MyFirstCheck.java:29)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1672162855581,
+            "stop": 1672162856362,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": true,
+        "muted": false,
+        "flaky": false,
+        "message": "MyFirstCheck failed, 56 >= 26\r\n",
+        "trace": "io.cosmosoftware.kite.exception.KiteTestException: MyFirstCheck failed, 56 >= 26\r\n\n\tat org.webrtc.kite.denemetest.checks.MyFirstCheck.step(MyFirstCheck.java:29)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    "uuid": "e6a4022d-dd0c-4208-ad4a-ebdc4ca55a74",
+    "fullName": "org.webrtc.kite.denemetest.KiteDenemeTestTest",
+    "historyId": "b70e2589-4384-4ae8-a130-394b6f71edf9",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.denemetest"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.denemetest.KiteDenemeTestTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "ethem"
+        },
+        {
+            "name": "suite",
+            "value": "DenemeTest Test  (2022-12-27-204048)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "DenemeTest  [2022-12-27-204048] (2022-12-27-204048)"
+        }
+    ]
+}

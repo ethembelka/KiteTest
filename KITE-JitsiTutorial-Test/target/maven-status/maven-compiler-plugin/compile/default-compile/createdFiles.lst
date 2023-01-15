@@ -1,0 +1,6 @@
+org/webrtc/kite/jitsitutorial/KiteJitsiTutorialTest.class
+org/webrtc/kite/jitsitutorial/checks/SentVideoCheck.class
+org/webrtc/kite/jitsitutorial/pages/MainPage.class
+org/webrtc/kite/jitsitutorial/checks/ReceivedVideosCheck.class
+org/webrtc/kite/jitsitutorial/steps/GetStatsStep.class
+org/webrtc/kite/jitsitutorial/steps/OpenUrlStep.class

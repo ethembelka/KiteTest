@@ -1,0 +1,5 @@
+
+{
+    "Timestamp": "2023-01-06-004616",
+    "Console Log": "1672955175290:SEVERE chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED\r\n1672955175381:WARNING https://web-cdn.jitsi.net/meetjitsi_6890.3661/libs/lib-jitsi-meet.min.js?v=6890.3661 1 The ScriptProcessorNode is deprecated. Use AudioWorkletNode instead. (https://bit.ly/audio-worklet)\r\n"
+}

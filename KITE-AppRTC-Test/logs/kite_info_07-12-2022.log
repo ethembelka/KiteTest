@@ -1,0 +1,772 @@
+2022-12-07 16:50:48,358 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-07 16:50:48,381 INFO  - new RoomManager(2 max per room) for https://appr.tc
+ 2022-12-07 16:50:48,381 INFO  - Please make sure that you have enough room for all users.
+ 2022-12-07 16:50:48,381 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-07 16:50:48,381 INFO  - Finished reading the configuration file
+ 2022-12-07 16:50:48,381 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/kite-allure-reports/
+ 2022-12-07 16:50:48,383 INFO  - Running {"type":"interop","name":"IceConnectionTest %ts","testImpl":"org.webrtc.kite.apprtc.tests.IceConnectionTest","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-07 16:50:48,385 INFO  - Executing {"type":"interop","name":"IceConnectionTest %ts","testImpl":"org.webrtc.kite.apprtc.tests.IceConnectionTest","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2022-12-07 16:50:48,387 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-07 16:50:48,389 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for IceConnectionTest %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-07 16:50:48,390 INFO  - execute(DEFAULT) for the test case: LIN_ch_108-LIN_ch_108 (2022-12-07-165048)
+ 2022-12-07 16:50:48,390 INFO  - Not load test, init report for test
+ 2022-12-07 16:50:48,391 INFO  - Finished filling out initial report for phase 
+ 2022-12-07 16:50:48,391 INFO  - payload handling
+ 2022-12-07 16:50:48,391 INFO  - the payload is {"url":"https://appr.tc","takeScreenshotForEachTest":true,"getStats":{"enabled":true,"statsCollectionTime":2000,"statsCollectionInterval":2000,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair","track"]}}
+ 2022-12-07 16:50:48,392 INFO  - Creating runners
+ 2022-12-07 16:50:48,392 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-07 16:50:48,392 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2022-12-07 16:50:48,397 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 16:50:48,397 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 16:50:49,186 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 16:50:49,186 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 16:50:49,199 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-07 16:50:49,200 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-07 16:50:49,200 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2022-12-07 16:50:50,335 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=108.0.5359.94)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.Qggjha}, goog:chromeOptions: {debuggerAddress: localhost:33351}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: a28bb66a3a37989ff30d84edfed...}
+Session ID: a28bb66a3a37989ff30d84edfedf69f7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 16:50:50,336 WARN  - ch108_LINUX-a28bb - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-07 16:50:50,337 INFO  - ch108_LINUX-a28bb - 0:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 16:50:50,337 WARN  - ch108_LINUX-a28bb - 0: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 16:50:50,337 WARN  - ch108_LINUX-a28bb - 0: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 16:50:50,337 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=108.0.5359.94)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.EjDrJc}, goog:chromeOptions: {debuggerAddress: localhost:44833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: fb44063ac0bdfe0a4c9528b416f...}
+Session ID: fb44063ac0bdfe0a4c9528b416fb7924
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 16:50:50,337 WARN  - ch108_LINUX-a28bb - 0: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 16:50:50,337 WARN  - ch108_LINUX-a28bb - 0: [SKIPPING] Get a screenshot
+ 2022-12-07 16:50:50,337 WARN  - ch108_LINUX-a28bb - 0: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-07 16:50:50,338 WARN  - ch108_LINUX-fb440 - 1: [SKIPPING] Get the browser console logs.
+ 2022-12-07 16:50:50,338 INFO  - ch108_LINUX-fb440 - 1:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 16:50:50,338 WARN  - ch108_LINUX-fb440 - 1: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 16:50:50,338 WARN  - ch108_LINUX-fb440 - 1: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 16:50:50,339 WARN  - ch108_LINUX-fb440 - 1: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 16:50:50,339 WARN  - ch108_LINUX-fb440 - 1: [SKIPPING] Get a screenshot
+ 2022-12-07 16:50:50,339 WARN  - ch108_LINUX-fb440 - 1: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-07 16:50:50,339 INFO  - execute(DEFAULT) completed.
+ 2022-12-07 16:50:50,340 INFO  - Terminating, quiting webdriver
+ 2022-12-07 16:50:50,340 INFO  - Closing down webDrivers
+ 2022-12-07 16:50:50,489 INFO  - Test FAILED
+ 2022-12-07 16:50:50,489 INFO  - Matrix runner at last phase, ending. 
+ 2022-12-07 16:50:50,498 WARN  - Adding [0, 0] to retry list..
+ 2022-12-07 16:50:50,499 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-07 16:50:50,500 WARN  - Done! Some test cases might need to be rerun!
+ 2022-12-07 16:50:50,500 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-07 16:50:50,501 INFO  - shutdownExecutors() done.
+ 2022-12-07 19:45:02,105 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-07 19:45:02,127 INFO  - new RoomManager(2 max per room) for https://appr.tc
+ 2022-12-07 19:45:02,127 INFO  - Please make sure that you have enough room for all users.
+ 2022-12-07 19:45:02,127 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-07 19:45:02,127 INFO  - Finished reading the configuration file
+ 2022-12-07 19:45:02,127 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/kite-allure-reports/
+ 2022-12-07 19:45:02,129 INFO  - Running {"type":"interop","name":"IceConnectionTest %ts","testImpl":"org.webrtc.kite.apprtc.tests.IceConnectionTest","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-07 19:45:02,131 INFO  - Executing {"type":"interop","name":"IceConnectionTest %ts","testImpl":"org.webrtc.kite.apprtc.tests.IceConnectionTest","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2022-12-07 19:45:02,133 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-07 19:45:02,135 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for IceConnectionTest %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-07 19:45:02,135 INFO  - execute(DEFAULT) for the test case: LIN_ch_108-LIN_ch_108 (2022-12-07-194502)
+ 2022-12-07 19:45:02,136 INFO  - Not load test, init report for test
+ 2022-12-07 19:45:02,136 INFO  - Finished filling out initial report for phase 
+ 2022-12-07 19:45:02,136 INFO  - payload handling
+ 2022-12-07 19:45:02,137 INFO  - the payload is {"url":"https://appr.tc","takeScreenshotForEachTest":true,"getStats":{"enabled":true,"statsCollectionTime":2000,"statsCollectionInterval":2000,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair","track"]}}
+ 2022-12-07 19:45:02,137 INFO  - Creating runners
+ 2022-12-07 19:45:02,138 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2022-12-07 19:45:02,138 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-07 19:45:02,143 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 19:45:02,143 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 19:45:02,849 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 19:45:02,849 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 19:45:02,870 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-07 19:45:02,871 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2022-12-07 19:45:02,871 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-07 19:45:03,778 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=108.0.5359.94)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.wrfgmu}, goog:chromeOptions: {debuggerAddress: localhost:45583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 026fee05282f8dd08b49a1412fb...}
+Session ID: 026fee05282f8dd08b49a1412fb40b65
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 19:45:03,780 WARN  - ch108_LINUX-026fe - 1: [SKIPPING] Get the browser console logs.
+ 2022-12-07 19:45:03,780 INFO  - ch108_LINUX-026fe - 1:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 19:45:03,780 WARN  - ch108_LINUX-026fe - 1: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 19:45:03,780 WARN  - ch108_LINUX-026fe - 1: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 19:45:03,780 WARN  - ch108_LINUX-026fe - 1: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 19:45:03,780 WARN  - ch108_LINUX-026fe - 1: [SKIPPING] Get a screenshot
+ 2022-12-07 19:45:03,781 WARN  - ch108_LINUX-026fe - 1: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-07 19:45:03,785 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=108.0.5359.94)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.yJ9W4A}, goog:chromeOptions: {debuggerAddress: localhost:40195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e6747159882531fb48a616fa5d8...}
+Session ID: e6747159882531fb48a616fa5d800418
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 19:45:03,785 WARN  - ch108_LINUX-e6747 - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-07 19:45:03,785 INFO  - ch108_LINUX-e6747 - 0:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 19:45:03,785 WARN  - ch108_LINUX-e6747 - 0: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 19:45:03,786 WARN  - ch108_LINUX-e6747 - 0: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 19:45:03,786 WARN  - ch108_LINUX-e6747 - 0: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 19:45:03,786 WARN  - ch108_LINUX-e6747 - 0: [SKIPPING] Get a screenshot
+ 2022-12-07 19:45:03,786 WARN  - ch108_LINUX-e6747 - 0: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-07 19:45:03,786 INFO  - execute(DEFAULT) completed.
+ 2022-12-07 19:45:03,786 INFO  - Terminating, quiting webdriver
+ 2022-12-07 19:45:03,786 INFO  - Closing down webDrivers
+ 2022-12-07 19:45:03,939 INFO  - Test FAILED
+ 2022-12-07 19:45:03,940 INFO  - Matrix runner at last phase, ending. 
+ 2022-12-07 19:45:03,945 WARN  - Adding [0, 0] to retry list..
+ 2022-12-07 19:45:03,945 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-07 19:45:03,946 WARN  - Done! Some test cases might need to be rerun!
+ 2022-12-07 19:45:03,946 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-07 19:45:03,947 INFO  - shutdownExecutors() done.
+ 2022-12-07 23:00:23,843 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-07 23:00:23,854 FATAL - FATAL Error: KITE has failed to start execution
+ java.lang.IllegalArgumentException: No enum constant org.openqa.selenium.Platform.LOACALHOST
+	at java.lang.Enum.valueOf(Enum.java:273) ~[?:?]
+	at org.openqa.selenium.Platform.valueOf(Platform.java:30) ~[kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.config.client.BrowserSpecs.<init>(BrowserSpecs.java:115) ~[kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.config.client.Client.<init>(Client.java:108) ~[kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.config.ConfigHandler.<init>(ConfigHandler.java:59) ~[kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.config.Configurator.buildConfig(Configurator.java:147) ~[kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.Engine.buildConfig(Engine.java:77) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.Engine.main(Engine.java:155) [kite-jar-with-dependencies.jar:?]
+2022-12-07 23:01:00,114 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-07 23:01:00,135 INFO  - new RoomManager(2 max per room) for https://appr.tc
+ 2022-12-07 23:01:00,136 INFO  - Please make sure that you have enough room for all users.
+ 2022-12-07 23:01:00,136 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-07 23:01:00,136 INFO  - Finished reading the configuration file
+ 2022-12-07 23:01:00,136 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/kite-allure-reports/
+ 2022-12-07 23:01:00,139 INFO  - Running {"type":"interop","name":"IceConnectionTest %ts","testImpl":"org.webrtc.kite.apprtc.tests.IceConnectionTest","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-07 23:01:00,141 INFO  - Executing {"type":"interop","name":"IceConnectionTest %ts","testImpl":"org.webrtc.kite.apprtc.tests.IceConnectionTest","description":"This test check the ICEConnection state between two browsers communicating via appr.tc","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 4 browser tuples with size :2
+ 2022-12-07 23:01:00,143 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-07 23:01:00,143 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-07 23:01:00,143 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-07 23:01:00,143 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-07 23:01:00,145 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/4
+           | ETA (for IceConnectionTest %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-07 23:01:00,145 INFO  - execute(DEFAULT) for the test case: LIN_ch_108-LIN_ch_108 (2022-12-07-230100)
+ 2022-12-07 23:01:00,146 INFO  - Not load test, init report for test
+ 2022-12-07 23:01:00,147 INFO  - Finished filling out initial report for phase 
+ 2022-12-07 23:01:00,147 INFO  - payload handling
+ 2022-12-07 23:01:00,147 INFO  - the payload is {"url":"https://appr.tc","takeScreenshotForEachTest":true,"getStats":{"enabled":true,"statsCollectionTime":2000,"statsCollectionInterval":2000,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair","track"]}}
+ 2022-12-07 23:01:00,147 INFO  - Creating runners
+ 2022-12-07 23:01:00,148 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-07 23:01:00,148 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2022-12-07 23:01:00,155 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 23:01:00,155 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 23:01:00,884 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 23:01:00,884 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 23:01:00,905 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-07 23:01:00,906 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-07 23:01:00,906 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2022-12-07 23:01:02,813 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=108.0.5359.98)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.98, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.cba4Mn}, goog:chromeOptions: {debuggerAddress: localhost:43051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 57ec93edbe8dcf61cb6698826ca...}
+Session ID: 57ec93edbe8dcf61cb6698826ca8cd70
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 23:01:02,815 WARN  - ch108_LINUX-57ec9 - 1: [SKIPPING] Get the browser console logs.
+ 2022-12-07 23:01:02,815 INFO  - ch108_LINUX-57ec9 - 1:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 23:01:02,816 WARN  - ch108_LINUX-57ec9 - 1: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 23:01:02,816 WARN  - ch108_LINUX-57ec9 - 1: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 23:01:02,816 WARN  - ch108_LINUX-57ec9 - 1: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 23:01:02,817 WARN  - ch108_LINUX-57ec9 - 1: [SKIPPING] Get a screenshot
+ 2022-12-07 23:01:02,817 WARN  - ch108_LINUX-57ec9 - 1: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-07 23:01:02,830 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=108.0.5359.98)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.98, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.kIQUVh}, goog:chromeOptions: {debuggerAddress: localhost:42723}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 860fca9d44bacab6078f205ae2a...}
+Session ID: 860fca9d44bacab6078f205ae2a4fc8f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 23:01:02,831 WARN  - ch108_LINUX-860fc - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-07 23:01:02,831 INFO  - ch108_LINUX-860fc - 0:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 23:01:02,832 WARN  - ch108_LINUX-860fc - 0: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 23:01:02,832 WARN  - ch108_LINUX-860fc - 0: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 23:01:02,832 WARN  - ch108_LINUX-860fc - 0: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 23:01:02,832 WARN  - ch108_LINUX-860fc - 0: [SKIPPING] Get a screenshot
+ 2022-12-07 23:01:02,833 WARN  - ch108_LINUX-860fc - 0: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-07 23:01:02,833 INFO  - execute(DEFAULT) completed.
+ 2022-12-07 23:01:02,833 INFO  - Terminating, quiting webdriver
+ 2022-12-07 23:01:02,833 INFO  - Closing down webDrivers
+ 2022-12-07 23:01:02,985 INFO  - Test FAILED
+ 2022-12-07 23:01:02,985 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 1
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 1/4
+           | ETA (for IceConnectionTest %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-07 23:01:02,986 INFO  - execute(DEFAULT) for the test case: LIN_ch_108-LIN_fi_107 (2022-12-07-230102)
+ 2022-12-07 23:01:02,986 INFO  - Not load test, init report for test
+ 2022-12-07 23:01:02,986 INFO  - Finished filling out initial report for phase 
+ 2022-12-07 23:01:02,986 INFO  - payload handling
+ 2022-12-07 23:01:02,986 INFO  - the payload is {"url":"https://appr.tc","takeScreenshotForEachTest":true,"getStats":{"enabled":true,"statsCollectionTime":2000,"statsCollectionInterval":2000,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair","track"]}}
+ 2022-12-07 23:01:02,986 INFO  - Creating runners
+ 2022-12-07 23:01:02,986 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-07 23:01:02,987 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2022-12-07 23:01:02,988 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 23:01:02,988 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 23:01:03,345 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 23:01:07,934 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 23:01:07,936 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-07 23:01:07,936 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-07 23:01:07,936 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2022-12-07 23:01:07,956 WARN  - fi107_LINUX-056d1 - 1: Could not attach screenshot to error of step: Open apprtc web page and join a room
+ 2022-12-07 23:01:07,957 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: Invalid Host header localhost:4444
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 5.15.0-56-generic, moz:processID: 59722, moz:profile: /tmp/rust_mozprofileGh6Xax, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 056d1c45-0304-4f35-9c55-ef7...}
+Session ID: 056d1c45-0304-4f35-9c55-ef7d39eaf9b8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 23:01:07,958 WARN  - fi107_LINUX-056d1 - 1: [SKIPPING] Get the browser console logs.
+ 2022-12-07 23:01:07,958 INFO  - fi107_LINUX-056d1 - 1:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 23:01:07,958 WARN  - fi107_LINUX-056d1 - 1: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 23:01:07,958 WARN  - fi107_LINUX-056d1 - 1: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 23:01:07,958 WARN  - fi107_LINUX-056d1 - 1: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 23:01:07,959 WARN  - fi107_LINUX-056d1 - 1: [SKIPPING] Get a screenshot
+ 2022-12-07 23:01:08,564 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=108.0.5359.98)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.98, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.hxTF9z}, goog:chromeOptions: {debuggerAddress: localhost:39645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b62ea2685601e7b2e8f12d090de...}
+Session ID: b62ea2685601e7b2e8f12d090de5f30c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 23:01:08,565 WARN  - ch108_LINUX-b62ea - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-07 23:01:08,565 INFO  - ch108_LINUX-b62ea - 0:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 23:01:08,565 WARN  - ch108_LINUX-b62ea - 0: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 23:01:08,565 WARN  - ch108_LINUX-b62ea - 0: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 23:01:08,565 WARN  - ch108_LINUX-b62ea - 0: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 23:01:08,565 WARN  - ch108_LINUX-b62ea - 0: [SKIPPING] Get a screenshot
+ 2022-12-07 23:01:08,565 WARN  - ch108_LINUX-b62ea - 0: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-07 23:01:08,565 INFO  - execute(DEFAULT) completed.
+ 2022-12-07 23:01:08,565 INFO  - Terminating, quiting webdriver
+ 2022-12-07 23:01:08,565 INFO  - Closing down webDrivers
+ 2022-12-07 23:01:08,651 ERROR - Exception while closing/quitting the WebDriver
+ org.openqa.selenium.WebDriverException: Invalid Host header localhost:4444
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 5.15.0-56-generic, moz:processID: 59722, moz:profile: /tmp/rust_mozprofileGh6Xax, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 056d1c45-0304-4f35-9c55-ef7...}
+Session ID: 056d1c45-0304-4f35-9c55-ef7d39eaf9b8
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452) ~[kite-jar-with-dependencies.jar:?]
+	at io.cosmosoftware.kite.util.WebDriverUtils.closeDrivers(WebDriverUtils.java:137) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.tests.KiteBaseTest.terminate(KiteBaseTest.java:250) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.tests.KiteBaseTest.execute(KiteBaseTest.java:172) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.TestManager.call(TestManager.java:209) [kite-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-07 23:01:08,668 INFO  - Test FAILED
+ 2022-12-07 23:01:08,669 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 2
+           | Elapsed time: 0m5s (avg:0m5s)
+           | Running test case with ID: 2/4
+           | ETA (for IceConnectionTest %ts): 0m15s
+           |--------------------------------------------------
+ 2022-12-07 23:01:08,670 INFO  - execute(DEFAULT) for the test case: LIN_fi_107-LIN_ch_108 (2022-12-07-230108)
+ 2022-12-07 23:01:08,670 INFO  - Not load test, init report for test
+ 2022-12-07 23:01:08,672 INFO  - Finished filling out initial report for phase 
+ 2022-12-07 23:01:08,673 INFO  - payload handling
+ 2022-12-07 23:01:08,673 INFO  - the payload is {"url":"https://appr.tc","takeScreenshotForEachTest":true,"getStats":{"enabled":true,"statsCollectionTime":2000,"statsCollectionInterval":2000,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair","track"]}}
+ 2022-12-07 23:01:08,674 INFO  - Creating runners
+ 2022-12-07 23:01:08,675 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-07 23:01:08,675 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2022-12-07 23:01:08,686 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 23:01:08,686 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","version":"108","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 23:01:09,017 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 23:01:13,126 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 23:01:13,128 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-07 23:01:13,128 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-07 23:01:13,128 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2022-12-07 23:01:13,149 WARN  - fi107_LINUX-e7b86 - 0: Could not attach screenshot to error of step: Open apprtc web page and join a room
+ 2022-12-07 23:01:13,149 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: Invalid Host header localhost:4444
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 5.15.0-56-generic, moz:processID: 60143, moz:profile: /tmp/rust_mozprofileGr3pt6, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: e7b86ca1-9c75-496a-bf80-b3b...}
+Session ID: e7b86ca1-9c75-496a-bf80-b3b249e54a70
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 23:01:13,150 WARN  - fi107_LINUX-e7b86 - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-07 23:01:13,150 INFO  - fi107_LINUX-e7b86 - 0:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 23:01:13,151 WARN  - fi107_LINUX-e7b86 - 0: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 23:01:13,151 WARN  - fi107_LINUX-e7b86 - 0: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 23:01:13,151 WARN  - fi107_LINUX-e7b86 - 0: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 23:01:13,151 WARN  - fi107_LINUX-e7b86 - 0: [SKIPPING] Get a screenshot
+ 2022-12-07 23:01:13,816 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=108.0.5359.98)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.98, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.K3yfW7}, goog:chromeOptions: {debuggerAddress: localhost:36263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: aed7bf5949509a8522622897133...}
+Session ID: aed7bf5949509a85226228971333344a
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 23:01:13,817 WARN  - ch108_LINUX-aed7b - 1: [SKIPPING] Get the browser console logs.
+ 2022-12-07 23:01:13,817 INFO  - ch108_LINUX-aed7b - 1:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 23:01:13,817 WARN  - ch108_LINUX-aed7b - 1: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 23:01:13,817 WARN  - ch108_LINUX-aed7b - 1: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 23:01:13,817 WARN  - ch108_LINUX-aed7b - 1: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 23:01:13,817 WARN  - ch108_LINUX-aed7b - 1: [SKIPPING] Get a screenshot
+ 2022-12-07 23:01:13,818 WARN  - ch108_LINUX-aed7b - 1: [SKIPPING] Gets the webrtc-internals dump.
+ 2022-12-07 23:01:13,818 INFO  - execute(DEFAULT) completed.
+ 2022-12-07 23:01:13,818 INFO  - Terminating, quiting webdriver
+ 2022-12-07 23:01:13,818 INFO  - Closing down webDrivers
+ 2022-12-07 23:01:13,831 ERROR - Exception while closing/quitting the WebDriver
+ org.openqa.selenium.WebDriverException: Invalid Host header localhost:4444
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 5.15.0-56-generic, moz:processID: 60143, moz:profile: /tmp/rust_mozprofileGr3pt6, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: e7b86ca1-9c75-496a-bf80-b3b...}
+Session ID: e7b86ca1-9c75-496a-bf80-b3b249e54a70
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452) ~[kite-jar-with-dependencies.jar:?]
+	at io.cosmosoftware.kite.util.WebDriverUtils.closeDrivers(WebDriverUtils.java:137) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.tests.KiteBaseTest.terminate(KiteBaseTest.java:250) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.tests.KiteBaseTest.execute(KiteBaseTest.java:172) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.TestManager.call(TestManager.java:209) [kite-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-07 23:01:13,895 INFO  - Test FAILED
+ 2022-12-07 23:01:13,896 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 3
+           | Elapsed time: 0m10s (avg:0m5s)
+           | Running test case with ID: 3/4
+           | ETA (for IceConnectionTest %ts): 0m10s
+           |--------------------------------------------------
+ 2022-12-07 23:01:13,896 INFO  - execute(DEFAULT) for the test case: LIN_fi_107-LIN_fi_107 (2022-12-07-230113)
+ 2022-12-07 23:01:13,896 INFO  - Not load test, init report for test
+ 2022-12-07 23:01:13,897 INFO  - Finished filling out initial report for phase 
+ 2022-12-07 23:01:13,897 INFO  - payload handling
+ 2022-12-07 23:01:13,897 INFO  - the payload is {"url":"https://appr.tc","takeScreenshotForEachTest":true,"getStats":{"enabled":true,"statsCollectionTime":2000,"statsCollectionInterval":2000,"peerConnections":["appController.call_.pcClient_.pc_"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair","track"]}}
+ 2022-12-07 23:01:13,897 INFO  - Creating runners
+ 2022-12-07 23:01:13,898 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-07 23:01:13,898 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2022-12-07 23:01:13,899 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 23:01:13,899 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":0,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","version":"107","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-07 23:01:18,557 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 23:01:18,593 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-07 23:01:18,594 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-07 23:01:18,595 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-07 23:01:18,595 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2022-12-07 23:01:18,610 WARN  - fi107_LINUX-81b97 - 0: Could not attach screenshot to error of step: Open apprtc web page and join a room
+ 2022-12-07 23:01:18,610 WARN  - fi107_LINUX-1db1f - 1: Could not attach screenshot to error of step: Open apprtc web page and join a room
+ 2022-12-07 23:01:18,611 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: Invalid Host header localhost:4444
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 5.15.0-56-generic, moz:processID: 60462, moz:profile: /tmp/rust_mozprofile5MibPc, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 81b97771-a1a3-4c82-9c63-c9c...}
+Session ID: 81b97771-a1a3-4c82-9c63-c9cf7a8a72f8
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 23:01:18,611 WARN  - fi107_LINUX-81b97 - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-07 23:01:18,611 INFO  - fi107_LINUX-81b97 - 0:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 23:01:18,611 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.WebDriverException: Invalid Host header localhost:4444
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 5.15.0-56-generic, moz:processID: 60457, moz:profile: /tmp/rust_mozprofile8sdMrI, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 1db1fade-58a9-4d27-b33d-851...}
+Session ID: 1db1fade-58a9-4d27-b33d-85186b0ecabe
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.webrtc.kite.apprtc.pages.AppRTCJoinPage.joinRoom(AppRTCJoinPage.java:39)
+	at org.webrtc.kite.apprtc.steps.JoinRoomStep.step(JoinRoomStep.java:50)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+ 2022-12-07 23:01:18,612 WARN  - fi107_LINUX-81b97 - 0: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 23:01:18,612 WARN  - fi107_LINUX-81b97 - 0: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 23:01:18,612 WARN  - fi107_LINUX-81b97 - 0: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 23:01:18,612 WARN  - fi107_LINUX-1db1f - 1: [SKIPPING] Get the browser console logs.
+ 2022-12-07 23:01:18,612 WARN  - fi107_LINUX-81b97 - 0: [SKIPPING] Get a screenshot
+ 2022-12-07 23:01:18,612 INFO  - fi107_LINUX-1db1f - 1:  [BROKEN] Open apprtc web page and join a room
+ 2022-12-07 23:01:18,612 WARN  - fi107_LINUX-1db1f - 1: [SKIPPING] Verify that the ICE connection state is 'connected'
+ 2022-12-07 23:01:18,612 WARN  - fi107_LINUX-1db1f - 1: [SKIPPING] Verify that the remote video is actually playing
+ 2022-12-07 23:01:18,613 WARN  - fi107_LINUX-1db1f - 1: [SKIPPING] Getting stats from ["appController.call_.pcClient_.pc_"]
+ 2022-12-07 23:01:18,613 WARN  - fi107_LINUX-1db1f - 1: [SKIPPING] Get a screenshot
+ 2022-12-07 23:01:18,613 INFO  - execute(DEFAULT) completed.
+ 2022-12-07 23:01:18,613 INFO  - Terminating, quiting webdriver
+ 2022-12-07 23:01:18,614 INFO  - Closing down webDrivers
+ 2022-12-07 23:01:18,622 ERROR - Exception while closing/quitting the WebDriver
+ org.openqa.selenium.WebDriverException: Invalid Host header localhost:4444
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 5.15.0-56-generic, moz:processID: 60462, moz:profile: /tmp/rust_mozprofile5MibPc, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 81b97771-a1a3-4c82-9c63-c9c...}
+Session ID: 81b97771-a1a3-4c82-9c63-c9cf7a8a72f8
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452) ~[kite-jar-with-dependencies.jar:?]
+	at io.cosmosoftware.kite.util.WebDriverUtils.closeDrivers(WebDriverUtils.java:137) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.tests.KiteBaseTest.terminate(KiteBaseTest.java:250) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.tests.KiteBaseTest.execute(KiteBaseTest.java:172) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.TestManager.call(TestManager.java:209) [kite-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-07 23:01:20,642 ERROR - Exception while closing/quitting the WebDriver
+ org.openqa.selenium.WebDriverException: Invalid Host header localhost:4444
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ethem', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-56-generic', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 5.15.0-56-generic, moz:processID: 60457, moz:profile: /tmp/rust_mozprofile8sdMrI, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 1db1fade-58a9-4d27-b33d-851...}
+Session ID: 1db1fade-58a9-4d27-b33d-85186b0ecabe
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609) ~[kite-jar-with-dependencies.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452) ~[kite-jar-with-dependencies.jar:?]
+	at io.cosmosoftware.kite.util.WebDriverUtils.closeDrivers(WebDriverUtils.java:137) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.tests.KiteBaseTest.terminate(KiteBaseTest.java:250) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.tests.KiteBaseTest.execute(KiteBaseTest.java:172) [kite-jar-with-dependencies.jar:?]
+	at org.webrtc.kite.TestManager.call(TestManager.java:209) [kite-jar-with-dependencies.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-07 23:01:20,645 INFO  - Test FAILED
+ 2022-12-07 23:01:20,645 INFO  - Matrix runner at last phase, ending. 
+ 2022-12-07 23:01:20,653 WARN  - Adding [0, 0] to retry list..
+ 2022-12-07 23:01:20,659 WARN  - Adding [0, 1] to retry list..
+ 2022-12-07 23:01:20,667 WARN  - Adding [1, 0] to retry list..
+ 2022-12-07 23:01:20,674 WARN  - Adding [1, 1] to retry list..
+ 2022-12-07 23:01:20,677 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-07 23:01:20,678 WARN  - Done! Some test cases might need to be rerun!
+ 2022-12-07 23:01:20,679 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-AppRTC-Test/configs/iceconnection.apprtc.config.json' ...
+ 2022-12-07 23:01:20,681 INFO  - shutdownExecutors() done.
+ 

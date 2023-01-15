@@ -1,0 +1,88 @@
+{
+  "name": "Web Platform Test",
+  "callable": true,
+  "grids": [
+    {
+      "type": "local",
+      "url": "http://localhost:4444/wd/hub"
+    }
+  ],
+  "callback": null,
+  "tests": [
+    {
+      "name": "Web Platform Test %ts",
+      "tupleSize": 1,
+      "noOfThreads": 6,
+      "testImpl": "org.webrtc.kite.wpt.WPTTest",
+      "payload": {
+        "report": true,
+        "revision": "75a04240a669feafba02302fdcf8b3d1ad1c2790",
+        "reportStyle": 2,
+        "securedURL": "https://wpt.live/",
+        "nonSecuredURL": "http://wpt.live/",
+        "tests": [
+          "webrtc",
+          "webrtc-extensions",
+          "webrtc-identity",
+          "webrtc-insertable-streams",
+          "webrtc-priority",
+          "webrtc-stats",
+          "webrtc-svc",
+          "media-capabilities",
+          "media-feeds",
+          "media-playback-quality",
+          "media-source",
+          "mediacapture-depth",
+          "mediacapture-fromelement",
+          "mediacapture-image",
+          "mediacapture-record",
+          "mediacapture-streams",
+          "mediasession"
+        ]
+      }
+    }
+  ],
+  "clients": [
+    {
+      "browserName": "chrome",
+      "platform": "WINDOWS",
+      "version": "86"
+    },
+    {
+      "browserName": "chrome",
+      "platform": "MAC",
+      "version": "86"
+    },
+    {
+      "browserName": "chrome",
+      "platform": "LINUX",
+      "version": "86"
+    },
+    {
+      "browserName": "firefox",
+      "platform": "WINDOWS",
+      "version": "81"
+    },
+    {
+      "browserName": "firefox",
+      "platform": "MAC",
+      "version": "81"
+    },
+    {
+      "browserName": "firefox",
+      "platform": "LINUX",
+      "version": "81"
+    },
+    {
+      "browserName": "safari",
+      "platform": "MAC",
+      "version": "14"
+    },
+    {
+      "browserName": "Safari Technology Preview",
+      "platform": "MAC",
+      "version": "14.1",
+      "technologyPreview": true
+    }
+  ]
+}

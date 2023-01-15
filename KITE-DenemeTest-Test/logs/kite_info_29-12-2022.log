@@ -1,0 +1,411 @@
+2022-12-29 17:29:27,964 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:29:27,998 INFO  - new RoomManager(1 max per room) for https://stage-1.assistbox.io/
+ 2022-12-29 17:29:27,998 INFO  - Please make sure that you have enough room for all users.
+ 2022-12-29 17:29:27,998 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-29 17:29:27,999 INFO  - Finished reading the configuration file
+ 2022-12-29 17:29:27,999 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/kite-allure-reports/
+ 2022-12-29 17:29:28,004 INFO  - Running {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-29 17:29:28,007 INFO  - Executing {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 2 browser tuples with size :1
+ 2022-12-29 17:29:28,010 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:29:28,010 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:29:28,012 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:29:28,013 INFO  - execute(DEFAULT) for the test case: LIN_ch (2022-12-29-172928)
+ 2022-12-29 17:29:28,014 INFO  - Not load test, init report for test
+ 2022-12-29 17:29:28,015 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:29:28,016 INFO  - payload handling
+ 2022-12-29 17:29:28,016 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:29:28,017 INFO  - Creating runners
+ 2022-12-29 17:29:28,017 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:29:28,026 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:29:28,998 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:29:29,005 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:29:29,006 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:29:29,859 INFO  - ch108_LINUX-552e7 - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:29:30,175 INFO  - ch108_LINUX-552e7 - 0: MyFirstCheck pass, 11 < 73
+ 2022-12-29 17:29:30,198 INFO  - ch108_LINUX-552e7 - 0:  [PASSED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:29:30,199 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:29:30,199 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:29:30,200 INFO  - Closing down webDrivers
+ 2022-12-29 17:29:30,280 INFO  - Test PASSED
+ 2022-12-29 17:29:30,281 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 1
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 1/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:29:30,282 INFO  - execute(DEFAULT) for the test case: LIN_fi (2022-12-29-172930)
+ 2022-12-29 17:29:30,282 INFO  - Not load test, init report for test
+ 2022-12-29 17:29:30,283 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:29:30,283 INFO  - payload handling
+ 2022-12-29 17:29:30,284 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:29:30,284 INFO  - Creating runners
+ 2022-12-29 17:29:30,285 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:29:30,286 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:29:36,239 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:29:36,240 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:29:36,241 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:29:37,543 INFO  - fi108_LINUX-c73da - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:29:37,974 ERROR - Step failed:
+   message = MyFirstCheck failed, 53 >= 17
+
+ 2022-12-29 17:29:37,976 WARN  - fi108_LINUX-c73da - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-29 17:29:37,976 INFO  - fi108_LINUX-c73da - 0:  [FAILED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:29:37,976 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:29:37,976 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:29:37,977 INFO  - Closing down webDrivers
+ 2022-12-29 17:29:38,558 INFO  - Test FAILED
+ 2022-12-29 17:29:38,558 INFO  - Matrix runner at last phase, ending. 
+ 2022-12-29 17:29:38,566 WARN  - Adding [1] to retry list..
+ 2022-12-29 17:29:38,568 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:29:38,569 WARN  - Done! Some test cases might need to be rerun!
+ 2022-12-29 17:29:38,569 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:29:38,570 INFO  - shutdownExecutors() done.
+ 2022-12-29 17:30:30,731 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:30:30,835 INFO  - new RoomManager(1 max per room) for https://stage-1.assistbox.io/
+ 2022-12-29 17:30:30,835 INFO  - Please make sure that you have enough room for all users.
+ 2022-12-29 17:30:30,836 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-29 17:30:30,836 INFO  - Finished reading the configuration file
+ 2022-12-29 17:30:30,837 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/kite-allure-reports/
+ 2022-12-29 17:30:30,843 INFO  - Running {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-29 17:30:30,851 INFO  - Executing {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 2 browser tuples with size :1
+ 2022-12-29 17:30:30,860 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:30:30,860 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:30:30,866 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:30:30,868 INFO  - execute(DEFAULT) for the test case: LIN_ch (2022-12-29-173030)
+ 2022-12-29 17:30:30,872 INFO  - Not load test, init report for test
+ 2022-12-29 17:30:30,873 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:30:30,874 INFO  - payload handling
+ 2022-12-29 17:30:30,874 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:30:30,876 INFO  - Creating runners
+ 2022-12-29 17:30:30,878 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:30:30,904 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:30:32,788 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:30:32,801 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:30:32,804 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:30:34,221 INFO  - ch108_LINUX-2b27b - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:30:34,568 ERROR - Step failed:
+   message = MyFirstCheck failed, 88 >= 71
+
+ 2022-12-29 17:30:34,571 WARN  - ch108_LINUX-2b27b - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-29 17:30:34,572 INFO  - ch108_LINUX-2b27b - 0:  [FAILED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:30:34,572 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:30:34,573 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:30:34,573 INFO  - Closing down webDrivers
+ 2022-12-29 17:30:34,647 INFO  - Test FAILED
+ 2022-12-29 17:30:34,649 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 1
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 1/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:30:34,651 INFO  - execute(DEFAULT) for the test case: LIN_fi (2022-12-29-173034)
+ 2022-12-29 17:30:34,651 INFO  - Not load test, init report for test
+ 2022-12-29 17:30:34,653 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:30:34,653 INFO  - payload handling
+ 2022-12-29 17:30:34,654 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:30:34,654 INFO  - Creating runners
+ 2022-12-29 17:30:34,655 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:30:34,660 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:30:47,194 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:30:47,196 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:30:47,197 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:30:49,041 INFO  - fi108_LINUX-b821d - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:30:49,662 ERROR - Step failed:
+   message = MyFirstCheck failed, 93 >= 30
+
+ 2022-12-29 17:30:49,666 WARN  - fi108_LINUX-b821d - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-29 17:30:49,666 INFO  - fi108_LINUX-b821d - 0:  [FAILED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:30:49,667 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:30:49,667 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:30:49,668 INFO  - Closing down webDrivers
+ 2022-12-29 17:30:50,893 INFO  - Test FAILED
+ 2022-12-29 17:30:50,894 INFO  - Matrix runner at last phase, ending. 
+ 2022-12-29 17:30:50,905 WARN  - Adding [0] to retry list..
+ 2022-12-29 17:30:50,913 WARN  - Adding [1] to retry list..
+ 2022-12-29 17:30:50,917 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:30:50,934 WARN  - Done! Some test cases might need to be rerun!
+ 2022-12-29 17:30:50,935 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:30:50,938 INFO  - shutdownExecutors() done.
+ 2022-12-29 17:31:20,655 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:31:20,687 INFO  - new RoomManager(1 max per room) for https://stage-1.assistbox.io/
+ 2022-12-29 17:31:20,688 INFO  - Please make sure that you have enough room for all users.
+ 2022-12-29 17:31:20,688 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-29 17:31:20,688 INFO  - Finished reading the configuration file
+ 2022-12-29 17:31:20,688 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/kite-allure-reports/
+ 2022-12-29 17:31:20,691 INFO  - Running {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-29 17:31:20,694 INFO  - Executing {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 2 browser tuples with size :1
+ 2022-12-29 17:31:20,696 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:31:20,697 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:31:20,698 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:31:20,699 INFO  - execute(DEFAULT) for the test case: LIN_ch (2022-12-29-173120)
+ 2022-12-29 17:31:20,701 INFO  - Not load test, init report for test
+ 2022-12-29 17:31:20,703 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:31:20,703 INFO  - payload handling
+ 2022-12-29 17:31:20,703 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:31:20,704 INFO  - Creating runners
+ 2022-12-29 17:31:20,706 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:31:20,714 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:31:21,583 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:31:21,590 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:31:21,590 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:31:22,735 INFO  - ch108_LINUX-52578 - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:31:23,022 INFO  - ch108_LINUX-52578 - 0: MyFirstCheck pass, 11 < 35
+ 2022-12-29 17:31:23,038 INFO  - ch108_LINUX-52578 - 0:  [PASSED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:31:23,039 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:31:23,039 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:31:23,039 INFO  - Closing down webDrivers
+ 2022-12-29 17:31:23,106 INFO  - Test PASSED
+ 2022-12-29 17:31:23,109 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 1
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 1/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:31:23,110 INFO  - execute(DEFAULT) for the test case: LIN_fi (2022-12-29-173123)
+ 2022-12-29 17:31:23,111 INFO  - Not load test, init report for test
+ 2022-12-29 17:31:23,112 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:31:23,113 INFO  - payload handling
+ 2022-12-29 17:31:23,113 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:31:23,114 INFO  - Creating runners
+ 2022-12-29 17:31:23,114 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:31:23,116 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:31:28,543 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:31:28,544 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:31:28,545 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:31:29,810 INFO  - fi108_LINUX-39810 - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:31:29,997 INFO  - fi108_LINUX-39810 - 0: MyFirstCheck pass, 54 < 84
+ 2022-12-29 17:31:30,015 INFO  - fi108_LINUX-39810 - 0:  [PASSED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:31:30,016 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:31:30,017 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:31:30,017 INFO  - Closing down webDrivers
+ 2022-12-29 17:31:30,623 INFO  - Test PASSED
+ 2022-12-29 17:31:30,624 INFO  - Matrix runner at last phase, ending. 
+ 2022-12-29 17:31:30,638 WARN  - Done! All test cases have passed!
+ 2022-12-29 17:31:30,638 INFO  - shutdownExecutors() done.
+ 2022-12-29 17:33:11,832 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:33:11,864 INFO  - new RoomManager(1 max per room) for https://stage-1.assistbox.io/
+ 2022-12-29 17:33:11,864 INFO  - Please make sure that you have enough room for all users.
+ 2022-12-29 17:33:11,865 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-29 17:33:11,865 INFO  - Finished reading the configuration file
+ 2022-12-29 17:33:11,865 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/kite-allure-reports/
+ 2022-12-29 17:33:11,868 INFO  - Running {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-29 17:33:11,871 INFO  - Executing {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 2 browser tuples with size :1
+ 2022-12-29 17:33:11,873 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:33:11,873 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:33:11,875 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:33:11,876 INFO  - execute(DEFAULT) for the test case: LIN_ch (2022-12-29-173311)
+ 2022-12-29 17:33:11,878 INFO  - Not load test, init report for test
+ 2022-12-29 17:33:11,879 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:33:11,879 INFO  - payload handling
+ 2022-12-29 17:33:11,879 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:33:11,881 INFO  - Creating runners
+ 2022-12-29 17:33:11,882 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:33:11,888 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:33:12,724 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:33:12,731 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:33:12,732 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:33:13,726 INFO  - ch108_LINUX-0e673 - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:33:14,001 INFO  - ch108_LINUX-0e673 - 0: MyFirstCheck pass, 49 < 59
+ 2022-12-29 17:33:14,014 INFO  - ch108_LINUX-0e673 - 0:  [PASSED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:33:14,014 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:33:14,015 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:33:14,015 INFO  - Closing down webDrivers
+ 2022-12-29 17:33:14,082 INFO  - Test PASSED
+ 2022-12-29 17:33:14,085 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 1
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 1/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:33:14,085 INFO  - execute(DEFAULT) for the test case: LIN_fi (2022-12-29-173314)
+ 2022-12-29 17:33:14,086 INFO  - Not load test, init report for test
+ 2022-12-29 17:33:14,088 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:33:14,088 INFO  - payload handling
+ 2022-12-29 17:33:14,088 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:33:14,089 INFO  - Creating runners
+ 2022-12-29 17:33:14,090 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:33:14,092 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:33:19,472 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:33:19,474 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:33:19,475 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:33:20,699 INFO  - fi108_LINUX-f3011 - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:33:20,941 INFO  - fi108_LINUX-f3011 - 0: MyFirstCheck pass, 39 < 47
+ 2022-12-29 17:33:20,954 INFO  - fi108_LINUX-f3011 - 0:  [PASSED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:33:20,954 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:33:20,954 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:33:20,954 INFO  - Closing down webDrivers
+ 2022-12-29 17:33:21,472 INFO  - Test PASSED
+ 2022-12-29 17:33:21,472 INFO  - Matrix runner at last phase, ending. 
+ 2022-12-29 17:33:21,482 WARN  - Done! All test cases have passed!
+ 2022-12-29 17:33:21,482 INFO  - shutdownExecutors() done.
+ 2022-12-29 17:34:25,428 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:34:25,462 INFO  - new RoomManager(1 max per room) for https://stage-1.assistbox.io/
+ 2022-12-29 17:34:25,463 INFO  - Please make sure that you have enough room for all users.
+ 2022-12-29 17:34:25,463 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-29 17:34:25,464 INFO  - Finished reading the configuration file
+ 2022-12-29 17:34:25,464 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/kite-allure-reports/
+ 2022-12-29 17:34:25,468 INFO  - Running {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-29 17:34:25,471 INFO  - Executing {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 2 browser tuples with size :1
+ 2022-12-29 17:34:25,473 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:34:25,473 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:34:25,475 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:34:25,476 INFO  - execute(DEFAULT) for the test case: LIN_ch (2022-12-29-173425)
+ 2022-12-29 17:34:25,478 INFO  - Not load test, init report for test
+ 2022-12-29 17:34:25,479 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:34:25,479 INFO  - payload handling
+ 2022-12-29 17:34:25,479 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:34:25,480 INFO  - Creating runners
+ 2022-12-29 17:34:25,481 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:34:25,488 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:34:26,354 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:34:26,362 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:34:26,362 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:34:27,300 INFO  - ch108_LINUX-9e165 - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:34:27,630 ERROR - Step failed:
+   message = MyFirstCheck failed, 77 >= 32
+
+ 2022-12-29 17:34:27,631 WARN  - ch108_LINUX-9e165 - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-29 17:34:27,631 INFO  - ch108_LINUX-9e165 - 0:  [FAILED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:34:27,632 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:34:27,632 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:34:27,632 INFO  - Closing down webDrivers
+ 2022-12-29 17:34:27,701 INFO  - Test FAILED
+ 2022-12-29 17:34:27,702 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 1
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 1/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:34:27,703 INFO  - execute(DEFAULT) for the test case: LIN_fi (2022-12-29-173427)
+ 2022-12-29 17:34:27,703 INFO  - Not load test, init report for test
+ 2022-12-29 17:34:27,704 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:34:27,705 INFO  - payload handling
+ 2022-12-29 17:34:27,705 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:34:27,706 INFO  - Creating runners
+ 2022-12-29 17:34:27,707 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:34:27,711 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:34:32,980 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:34:32,981 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:34:32,982 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:34:36,011 INFO  - fi108_LINUX-d03b3 - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:34:36,251 INFO  - fi108_LINUX-d03b3 - 0: MyFirstCheck pass, 15 < 34
+ 2022-12-29 17:34:36,263 INFO  - fi108_LINUX-d03b3 - 0:  [PASSED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:34:36,263 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:34:36,264 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:34:36,264 INFO  - Closing down webDrivers
+ 2022-12-29 17:34:36,890 INFO  - Test PASSED
+ 2022-12-29 17:34:36,891 INFO  - Matrix runner at last phase, ending. 
+ 2022-12-29 17:34:36,896 WARN  - Adding [0] to retry list..
+ 2022-12-29 17:34:36,903 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:34:36,904 WARN  - Done! Some test cases might need to be rerun!
+ 2022-12-29 17:34:36,905 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:34:36,906 INFO  - shutdownExecutors() done.
+ 2022-12-29 17:41:20,572 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:41:20,604 INFO  - new RoomManager(1 max per room) for https://stage-1.assistbox.io/
+ 2022-12-29 17:41:20,604 INFO  - Please make sure that you have enough room for all users.
+ 2022-12-29 17:41:20,604 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2022-12-29 17:41:20,604 INFO  - Finished reading the configuration file
+ 2022-12-29 17:41:20,604 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/kite-allure-reports/
+ 2022-12-29 17:41:20,607 INFO  - Running {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2022-12-29 17:41:20,610 INFO  - Executing {"type":"interop","name":"DenemeTest Test %ts","testImpl":"org.webrtc.kite.denemetest.KiteDenemeTestTest","description":"DenemeTest test description","tupleSize":1,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 2 browser tuples with size :1
+ 2022-12-29 17:41:20,612 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:41:20,613 INFO  - current phase in test manager has been set to DEFAULT
+ 2022-12-29 17:41:20,616 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:41:20,617 INFO  - execute(DEFAULT) for the test case: LIN_ch (2022-12-29-174120)
+ 2022-12-29 17:41:20,618 INFO  - Not load test, init report for test
+ 2022-12-29 17:41:20,619 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:41:20,619 INFO  - payload handling
+ 2022-12-29 17:41:20,619 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:41:20,620 INFO  - Creating runners
+ 2022-12-29 17:41:20,621 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:41:20,627 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:41:21,467 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:41:21,473 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:41:21,473 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:41:22,395 INFO  - ch108_LINUX-a8737 - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:41:22,710 ERROR - Step failed:
+   message = MyFirstCheck failed, 61 >= 10
+
+ 2022-12-29 17:41:22,711 WARN  - ch108_LINUX-a8737 - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-29 17:41:22,711 INFO  - ch108_LINUX-a8737 - 0:  [FAILED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:41:22,711 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:41:22,712 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:41:22,712 INFO  - Closing down webDrivers
+ 2022-12-29 17:41:22,780 INFO  - Test FAILED
+ 2022-12-29 17:41:22,783 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 1
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 1/2
+           | ETA (for DenemeTest Test %ts): Estimating..
+           |--------------------------------------------------
+ 2022-12-29 17:41:22,783 INFO  - execute(DEFAULT) for the test case: LIN_fi (2022-12-29-174122)
+ 2022-12-29 17:41:22,784 INFO  - Not load test, init report for test
+ 2022-12-29 17:41:22,785 INFO  - Finished filling out initial report for phase 
+ 2022-12-29 17:41:22,786 INFO  - payload handling
+ 2022-12-29 17:41:22,786 INFO  - the payload is {"url":"https://stage-1.assistbox.io/"}
+ 2022-12-29 17:41:22,787 INFO  - Creating runners
+ 2022-12-29 17:41:22,787 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2022-12-29 17:41:22,789 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":1,"fullReset":false,"jsonConfig":{"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.gecko.driver=./geckodriver","browserName":"firefox","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2022-12-29 17:41:28,013 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2022-12-29 17:41:28,014 INFO  - Starting the execution of the test runners in parallel 
+ 2022-12-29 17:41:28,015 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2022-12-29 17:41:29,211 INFO  - fi108_LINUX-9795c - 0:  [PASSED] Open https://stage-1.assistbox.io/
+ 2022-12-29 17:41:29,529 ERROR - Step failed:
+   message = MyFirstCheck failed, 43 >= 11
+
+ 2022-12-29 17:41:29,531 WARN  - fi108_LINUX-9795c - 0: [SKIPPING] Get the browser console logs.
+ 2022-12-29 17:41:29,531 INFO  - fi108_LINUX-9795c - 0:  [FAILED] MyFirstCheck compares two random values and pass if 20 < 30
+ 2022-12-29 17:41:29,532 INFO  - execute(DEFAULT) completed.
+ 2022-12-29 17:41:29,532 INFO  - Terminating, quiting webdriver
+ 2022-12-29 17:41:29,532 INFO  - Closing down webDrivers
+ 2022-12-29 17:41:30,083 INFO  - Test FAILED
+ 2022-12-29 17:41:30,084 INFO  - Matrix runner at last phase, ending. 
+ 2022-12-29 17:41:30,087 WARN  - Adding [0] to retry list..
+ 2022-12-29 17:41:30,090 WARN  - Adding [1] to retry list..
+ 2022-12-29 17:41:30,092 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:41:30,093 WARN  - Done! Some test cases might need to be rerun!
+ 2022-12-29 17:41:30,093 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-DenemeTest-Test/configs/denemetest.config.json' ...
+ 2022-12-29 17:41:30,094 INFO  - shutdownExecutors() done.
+ 

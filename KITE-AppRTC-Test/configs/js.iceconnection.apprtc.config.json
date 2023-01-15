@@ -1,0 +1,39 @@
+{
+  "name": "IceConnectionTest JS",
+  "callable": true,
+  "grids": [
+    {
+      "type": "local",
+      "url": "http://localhost:4444/wd/hub"
+    }
+  ],
+  "tests": [
+    {
+      "name": "IceConnectionTest",
+      "tupleSize": 2,
+      "description": "This test check the ICEConnection state between two browsers communicating via appr.tc",
+      "testImpl": "IceConnectionTest.js",
+      "payload" : {
+        "url": "https://appr.tc",
+        "port": 30000,
+        "testTimeout": 60,
+        "getStats" : {
+          "enabled": true,
+          "statsCollectionTime": 2,
+          "statsCollectionInterval": 1,
+          "peerConnections": ["appController.call_.pcClient_.pc_"],
+          "selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair"]
+        }
+      }
+    }
+  ],
+  "clients": [
+    {
+      "browserName": "chrome",
+      "version": "108",
+      "platform": "localhost",
+      "flags": [],
+      "headless": "false"
+    }
+  ]
+}

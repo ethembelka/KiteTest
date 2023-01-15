@@ -1,0 +1,114 @@
+2023-01-06 00:46:11,343 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/configs/jitsitutorial.config.json' ...
+ 2023-01-06 00:46:11,377 INFO  - new RoomManager(2 max per room) for https://meet.jit.si/ethem
+ 2023-01-06 00:46:11,377 INFO  - Please make sure that you have enough room for all users.
+ 2023-01-06 00:46:11,378 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-01-06 00:46:11,378 INFO  - Preconfigured room list found: [1, 2]
+ 2023-01-06 00:46:11,378 INFO  - To use these room, please call getPreconfiguredRoomUrl instead of get getRoomUrl function
+ 2023-01-06 00:46:11,378 INFO  - Finished reading the configuration file
+ 2023-01-06 00:46:11,379 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/kite-allure-reports/
+ 2023-01-06 00:46:11,383 INFO  - Running {"type":"interop","name":"JitsiTutorial Test %ts","testImpl":"org.webrtc.kite.jitsitutorial.KiteJitsiTutorialTest","description":"JitsiTutorial test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-01-06 00:46:11,387 INFO  - Executing {"type":"interop","name":"JitsiTutorial Test %ts","testImpl":"org.webrtc.kite.jitsitutorial.KiteJitsiTutorialTest","description":"JitsiTutorial test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-01-06 00:46:11,390 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-01-06 00:46:11,392 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for JitsiTutorial Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-01-06 00:46:11,393 INFO  - execute(DEFAULT) for the test case: LIN_ch-LIN_ch (2023-01-06-004611)
+ 2023-01-06 00:46:11,394 INFO  - Not load test, init report for test
+ 2023-01-06 00:46:11,394 INFO  - Finished filling out initial report for phase 
+ 2023-01-06 00:46:11,395 INFO  - payload handling
+ 2023-01-06 00:46:11,395 INFO  - the payload is {"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["window.pc[0]"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair"]},"url":"https://meet.jit.si/ethem","rooms":["1","2"],"usersPerRoom":2,"testTimeout":20}
+ 2023-01-06 00:46:11,396 INFO  - Creating runners
+ 2023-01-06 00:46:11,396 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-01-06 00:46:11,397 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-01-06 00:46:11,406 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"flags":[],"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2023-01-06 00:46:11,406 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"flags":[],"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2023-01-06 00:46:12,391 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-01-06 00:46:12,392 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-01-06 00:46:12,429 INFO  - Starting the execution of the test runners in parallel 
+ 2023-01-06 00:46:12,430 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-01-06 00:46:12,430 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-01-06 00:46:15,146 INFO  - ch108_LINUX-82acf - 1:  [PASSED] Open https://meet.jit.si/ethem
+ 2023-01-06 00:46:15,334 INFO  - ch108_LINUX-82acf - 1: Looking for video object.
+ 2023-01-06 00:46:15,466 INFO  - ch108_LINUX-c687a - 0:  [PASSED] Open https://meet.jit.si/ethem
+ 2023-01-06 00:46:15,608 INFO  - ch108_LINUX-c687a - 0: Looking for video object.
+ 2023-01-06 00:46:16,240 INFO  - ch108_LINUX-82acf - 1:  [PASSED] Checking if Sent Video is playing properly
+ 2023-01-06 00:46:17,477 INFO  - ch108_LINUX-c687a - 0:  [PASSED] Checking if Sent Video is playing properly
+ 2023-01-06 00:46:22,498 INFO  - ch108_LINUX-82acf - 1: Looking for video elements
+ 2023-01-06 00:46:23,239 INFO  - ch108_LINUX-82acf - 1:  [PASSED] Check the other videos are being received OK
+ 2023-01-06 00:46:23,696 INFO  - ch108_LINUX-82acf - 1:  [PASSED] Get a screenshot
+ 2023-01-06 00:46:23,709 INFO  - ch108_LINUX-c687a - 0: Looking for video elements
+ 2023-01-06 00:46:24,489 INFO  - ch108_LINUX-c687a - 0:  [PASSED] Check the other videos are being received OK
+ 2023-01-06 00:46:24,787 INFO  - ch108_LINUX-c687a - 0:  [PASSED] Get a screenshot
+ 2023-01-06 00:46:24,788 INFO  - execute(DEFAULT) completed.
+ 2023-01-06 00:46:24,789 INFO  - Terminating, quiting webdriver
+ 2023-01-06 00:46:24,790 INFO  - Closing down webDrivers
+ 2023-01-06 00:46:24,997 INFO  - Test PASSED
+ 2023-01-06 00:46:24,999 INFO  - Matrix runner at last phase, ending. 
+ 2023-01-06 00:46:25,021 WARN  - Done! All test cases have passed!
+ 2023-01-06 00:46:25,021 INFO  - shutdownExecutors() done.
+ 2023-01-06 10:27:14,418 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/configs/jitsitutorial.config.json' ...
+ 2023-01-06 10:27:14,454 INFO  - new RoomManager(2 max per room) for https://meet.jit.si/ethem
+ 2023-01-06 10:27:14,454 INFO  - Please make sure that you have enough room for all users.
+ 2023-01-06 10:27:14,454 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-01-06 10:27:14,454 INFO  - Preconfigured room list found: [1, 2]
+ 2023-01-06 10:27:14,454 INFO  - To use these room, please call getPreconfiguredRoomUrl instead of get getRoomUrl function
+ 2023-01-06 10:27:14,455 INFO  - Finished reading the configuration file
+ 2023-01-06 10:27:14,455 INFO  - Creating report folder if not exist at :/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/kite-allure-reports/
+ 2023-01-06 10:27:14,458 INFO  - Running {"type":"interop","name":"JitsiTutorial Test %ts","testImpl":"org.webrtc.kite.jitsitutorial.KiteJitsiTutorialTest","description":"JitsiTutorial test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-01-06 10:27:14,461 INFO  - Executing {"type":"interop","name":"JitsiTutorial Test %ts","testImpl":"org.webrtc.kite.jitsitutorial.KiteJitsiTutorialTest","description":"JitsiTutorial test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-01-06 10:27:14,464 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-01-06 10:27:14,466 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for JitsiTutorial Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-01-06 10:27:14,467 INFO  - execute(DEFAULT) for the test case: LIN_ch-LIN_ch (2023-01-06-102714)
+ 2023-01-06 10:27:14,468 INFO  - Not load test, init report for test
+ 2023-01-06 10:27:14,469 INFO  - Finished filling out initial report for phase 
+ 2023-01-06 10:27:14,469 INFO  - payload handling
+ 2023-01-06 10:27:14,469 INFO  - the payload is {"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["window.pc[0]"],"selectedStats":["inbound-rtp","outbound-rtp","candidate-pair"]},"url":"https://meet.jit.si/ethem","rooms":["1","2"],"usersPerRoom":2,"testTimeout":20}
+ 2023-01-06 10:27:14,470 INFO  - Creating runners
+ 2023-01-06 10:27:14,471 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-01-06 10:27:14,471 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-01-06 10:27:14,480 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"flags":[],"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2023-01-06 10:27:14,480 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"flags":[],"browserName":{},"version":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"LINUX"},"region":"NC"}
+ 2023-01-06 10:27:16,026 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-01-06 10:27:16,027 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-01-06 10:27:16,067 INFO  - Starting the execution of the test runners in parallel 
+ 2023-01-06 10:27:16,068 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-01-06 10:27:16,068 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-01-06 10:27:57,929 INFO  - ch108_LINUX-f5be2 - 0:  [PASSED] Open https://meet.jit.si/ethem
+ 2023-01-06 10:27:58,023 INFO  - ch108_LINUX-f5be2 - 0: Looking for video object.
+ 2023-01-06 10:27:59,400 INFO  - ch108_LINUX-2150f - 1:  [PASSED] Open https://meet.jit.si/ethem
+ 2023-01-06 10:27:59,473 INFO  - ch108_LINUX-2150f - 1: Looking for video object.
+ 2023-01-06 10:28:00,396 ERROR - Step failed:
+   message = The first video is blank
+
+ 2023-01-06 10:28:00,398 WARN  - ch108_LINUX-f5be2 - 0: [SKIPPING] Get the browser console logs.
+ 2023-01-06 10:28:00,398 INFO  - ch108_LINUX-f5be2 - 0:  [FAILED] Checking if Sent Video is playing properly
+ 2023-01-06 10:28:00,399 WARN  - ch108_LINUX-f5be2 - 0: [SKIPPING] Check the other videos are being received OK
+ 2023-01-06 10:28:00,399 WARN  - ch108_LINUX-f5be2 - 0: [SKIPPING] Get a screenshot
+ 2023-01-06 10:28:01,768 ERROR - Step failed:
+   message = The first video is blank
+
+ 2023-01-06 10:28:01,769 WARN  - ch108_LINUX-2150f - 1: [SKIPPING] Get the browser console logs.
+ 2023-01-06 10:28:01,770 INFO  - ch108_LINUX-2150f - 1:  [FAILED] Checking if Sent Video is playing properly
+ 2023-01-06 10:28:01,770 WARN  - ch108_LINUX-2150f - 1: [SKIPPING] Check the other videos are being received OK
+ 2023-01-06 10:28:01,770 WARN  - ch108_LINUX-2150f - 1: [SKIPPING] Get a screenshot
+ 2023-01-06 10:28:01,770 INFO  - execute(DEFAULT) completed.
+ 2023-01-06 10:28:01,771 INFO  - Terminating, quiting webdriver
+ 2023-01-06 10:28:01,771 INFO  - Closing down webDrivers
+ 2023-01-06 10:28:01,925 INFO  - Test FAILED
+ 2023-01-06 10:28:01,926 INFO  - Matrix runner at last phase, ending. 
+ 2023-01-06 10:28:01,940 WARN  - Adding [0, 0] to retry list..
+ 2023-01-06 10:28:01,943 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/configs/jitsitutorial.config.json' ...
+ 2023-01-06 10:28:01,944 WARN  - Done! Some test cases might need to be rerun!
+ 2023-01-06 10:28:01,944 INFO  - Reading '/home/ethem/Documents/GitHub/KITE/KITE-JitsiTutorial-Test/configs/jitsitutorial.config.json' ...
+ 2023-01-06 10:28:01,945 INFO  - shutdownExecutors() done.
+ 

@@ -1,0 +1,10 @@
+/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/src/main/java/org/webrtc/kite/example/steps/GoogleSearchStep.java
+/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/src/main/java/org/webrtc/kite/example/KiteExampleSearchTest.java
+/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/src/main/java/org/webrtc/kite/example/steps/GmailSignInStep.java
+/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/src/main/java/org/webrtc/kite/example/pages/GoogleSearchPage.java
+/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/src/main/java/org/webrtc/kite/example/pages/GoogleResultPage.java
+/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/src/main/java/org/webrtc/kite/example/checks/GmailSignInCheck.java
+/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/src/main/java/org/webrtc/kite/example/pages/GmailPage.java
+/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/src/main/java/org/webrtc/kite/example/pages/GmailSignInPage.java
+/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/src/main/java/org/webrtc/kite/example/KiteExampleAuthTest.java
+/home/ethem/Documents/GitHub/KITE/KITE-Example-Test/src/main/java/org/webrtc/kite/example/checks/GoogleFirstResultCheck.java

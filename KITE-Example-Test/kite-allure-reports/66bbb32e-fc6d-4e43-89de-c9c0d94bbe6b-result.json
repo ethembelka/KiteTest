@@ -1,0 +1,164 @@
+
+{
+    "name": "LIN_ch_108 (2023-01-05-203245) - 0",
+    "start": 1672939966292,
+    "stop": 1672939968771,
+    "description": "LIN_ch_108 (2023-01-05-203245)",
+    "stage": "finished",
+    "status": "FAILED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1672939965387,
+            "stop": 1672939966291,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672939965391,
+            "stop": 1672939966275,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-926b1 - 0: Open https://google.com and look for CoSMo Software Consulting",
+            "start": 1672939966293,
+            "stop": 1672939967751,
+            "description": "Open https://google.com and look for CoSMo Software Consulting",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-926b1 - 0: Open first result on Google result page and verify the page title",
+            "start": 1672939967751,
+            "stop": 1672939968771,
+            "description": "Open first result on Google result page and verify the page title",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_GoogleFirstResultCheck",
+                    "type": "image/png",
+                    "source": "b3f8fc52-ee6c-48bb-98ca-126be462f00c-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "2fa82aae-cb8a-4654-84db-cb6d30d4394e-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": true,
+                "muted": false,
+                "flaky": false,
+                "message": "The title of the first Google result was not correct: \nExpected: CoSMo Software - Cosmo Software but found Software & Consulting for the Digital Transformation of Companies | COSMO CONSULT\r\n",
+                "trace": "io.cosmosoftware.kite.exception.KiteTestException: The title of the first Google result was not correct: \nExpected: CoSMo Software - Cosmo Software but found Software & Consulting for the Digital Transformation of Companies | COSMO CONSULT\r\n\n\tat org.webrtc.kite.example.checks.GoogleFirstResultCheck.step(GoogleFirstResultCheck.java:27)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1672939968772,
+            "stop": 1672939968834,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": true,
+        "muted": false,
+        "flaky": false,
+        "message": "The title of the first Google result was not correct: \nExpected: CoSMo Software - Cosmo Software but found Software & Consulting for the Digital Transformation of Companies | COSMO CONSULT\r\n",
+        "trace": "io.cosmosoftware.kite.exception.KiteTestException: The title of the first Google result was not correct: \nExpected: CoSMo Software - Cosmo Software but found Software & Consulting for the Digital Transformation of Companies | COSMO CONSULT\r\n\n\tat org.webrtc.kite.example.checks.GoogleFirstResultCheck.step(GoogleFirstResultCheck.java:27)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    "uuid": "66bbb32e-fc6d-4e43-89de-c9c0d94bbe6b",
+    "fullName": "org.webrtc.kite.example.KiteExampleSearchTest",
+    "historyId": "6a0e9f49-6eff-4baa-af33-6794c7fa6137",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.example"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.example.KiteExampleSearchTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "ethem"
+        },
+        {
+            "name": "suite",
+            "value": "KiteExampleSearchTest  (2023-01-05-203245)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "Kite Test Search Example with Allure reporting [2023-01-05-203245]"
+        }
+    ]
+}

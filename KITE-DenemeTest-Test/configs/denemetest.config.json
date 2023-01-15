@@ -1,0 +1,32 @@
+{
+  "name": "DenemeTest %ts",
+  "grids": [
+    {
+      "type": "local",
+      "url": "http://localhost:4444/wd/hub"
+    }
+  ],
+  "tests": [
+    {
+      "name": "DenemeTest Test %ts",
+      "tupleSize": 1,
+      "description": "DenemeTest test description",
+      "testImpl": "org.webrtc.kite.denemetest.KiteDenemeTestTest",
+      "payload" : {
+        "url": "https://stage-1.assistbox.io/"
+      }
+    }
+  ],
+  "clients": [
+    {
+      "browserName": "chrome",
+      "version": 108,
+      "platform": "localhost"
+    },
+    {
+      "browserName": "firefox",
+      "version": 108,
+      "platform": "localhost"
+    }
+  ]
+}

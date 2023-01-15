@@ -1,0 +1,38 @@
+{
+  "name": "JitsiTutorial %ts",
+  "grids": [
+    {
+      "type": "local",
+      "url": "http://localhost:4444/wd/hub"
+    }
+  ],
+  "tests": [
+    {
+      "name": "JitsiTutorial Test %ts",
+      "tupleSize": 2,
+      "description": "JitsiTutorial test description",
+      "testImpl": "org.webrtc.kite.jitsitutorial.KiteJitsiTutorialTest",
+      "payload" : {
+      	"getStats" : {
+        	"enabled": true,
+        	"statsCollectionTime": 2,
+        	"statsCollectionInterval": 1,
+        	"peerConnections": ["window.pc[0]"],
+        	"selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair"]
+    	},
+        "url": "https://meet.jit.si/ethem",
+        "rooms": ["1", "2"],
+        "usersPerRoom": 2,
+        "testTimeout": 20
+      }
+    }
+  ],
+  "clients": [
+    {
+      "browserName": "chrome",
+      "version": 108,
+      "platform": "localhost",
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "name": "IceConnectionTest Suite",
+  "callback": null,
+  "callable": true,
+  "reportFolder" : "",
+  "grids": [
+    {
+      "type": "local",
+      "url": "http://localhost:4444/wd/hub"
+    }
+  ],
+  "tests": [
+    {
+      "name": "IceConnectionTest %ts",
+      "tupleSize": 2,
+      "description": "This test check the ICEConnection state between two browsers communicating via appr.tc",
+      "testImpl": "org.webrtc.kite.apprtc.tests.IceConnectionTest",
+      "payload" : {
+        "url": "https://appr.tc",
+        "getStats" : {
+          "enabled": true,
+          "statsCollectionTime": 2,
+          "statsCollectionInterval": 1,
+          "peerConnections": ["appController.call_.pcClient_.pc_"],
+          "selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair", "track"]
+        },
+        "bitrate": 8000
+      }
+    },
+    {
+      "name": "NoVideoTest",
+      "tupleSize": 2,
+      "description": "This test check the ICEConnection state between two browsers communicating via appr.tc without video",
+      "testImpl": "org.webrtc.kite.apprtc.tests.NoVideoTest",
+      "payload" : {
+        "url": "https://appr.tc",
+        "getStats" : {
+          "enabled": true,
+          "statsCollectionTime": 2,
+          "statsCollectionInterval": 1,
+          "peerConnections": ["appController.call_.pcClient_.pc_"],
+          "selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair", "track"]
+        },
+        "bitrate": 8000
+      }
+    },
+    {
+      "name": "NoAudioTest",
+      "tupleSize": 2,
+      "description": "This test check the ICEConnection state between two browsers communicating via appr.tc without audio",
+      "testImpl": "org.webrtc.kite.apprtc.tests.NoAudioTest",
+      "payload" : {
+        "url": "https://appr.tc",
+        "getStats" : {
+          "enabled": true,
+          "statsCollectionTime": 2,
+          "statsCollectionInterval": 1,
+          "peerConnections": ["appController.call_.pcClient_.pc_"],
+          "selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair", "track"]
+        },
+        "bitrate": 8000
+      }
+    },
+    {
+      "name": "HDTest",
+      "tupleSize": 2,
+      "description": "This test check the ICEConnection state between two browsers communicating via appr.tc with HD resolution",
+      "testImpl": "org.webrtc.kite.apprtc.tests.HDTest",
+      "payload" : {
+        "url": "https://appr.tc",
+        "getStats" : {
+          "enabled": true,
+          "statsCollectionTime": 2,
+          "statsCollectionInterval": 1,
+          "peerConnections": ["appController.call_.pcClient_.pc_"],
+          "selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair", "track"]
+        },
+        "bitrate": 8000
+      }
+    },
+    {
+      "name": "AudioSendingBitrateTest",
+      "tupleSize": 2,
+      "description": "This test check the bitrate of a certain setting set by user",
+      "testImpl": "org.webrtc.kite.apprtc.tests.AudioSendingBitrateTest",
+      "payload" : {
+        "url": "https://appr.tc",
+        "getStats" : {
+          "enabled": true,
+          "statsCollectionTime": 2,
+          "statsCollectionInterval": 1,
+          "peerConnections": ["appController.call_.pcClient_.pc_"],
+          "selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair", "track"]
+        },
+        "bitrate": 8000
+      }
+    },
+    {
+      "name": "VideoReceivingBitrateTest",
+      "tupleSize": 2,
+      "description": "This test check the bitrate of a certain setting set by user",
+      "testImpl": "org.webrtc.kite.apprtc.tests.VideoReceivingBitrateTest",
+      "payload" : {
+        "url": "https://appr.tc",
+        "getStats" : {
+          "enabled": true,
+          "statsCollectionTime": 2,
+          "statsCollectionInterval": 1,
+          "peerConnections": ["appController.call_.pcClient_.pc_"],
+          "selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair", "track"]
+        },
+        "bitrate": 8000
+      }
+    },
+    {
+      "name": "AudioReceivingBitrateTest",
+      "tupleSize": 2,
+      "description": "This test check the bitrate of a certain setting set by user",
+      "testImpl": "org.webrtc.kite.apprtc.tests.AudioReceivingBitrateTest",
+      "payload" : {
+        "url": "https://appr.tc",
+        "getStats" : {
+          "enabled": true,
+          "statsCollectionTime": 2,
+          "statsCollectionInterval": 1,
+          "peerConnections": ["appController.call_.pcClient_.pc_"],
+          "selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair", "track"]
+        },
+        "bitrate": 8000
+      }
+    },
+    {
+      "name": "VideoReceivingBitrateTest",
+      "tupleSize": 2,
+      "description": "This test check the bitrate of a certain setting set by user",
+      "testImpl": "org.webrtc.kite.apprtc.tests.VideoReceivingBitrateTest",
+      "payload" : {
+        "url": "https://appr.tc",
+        "getStats" : {
+          "enabled": true,
+          "statsCollectionTime": 2,
+          "statsCollectionInterval": 1,
+          "peerConnections": ["appController.call_.pcClient_.pc_"],
+          "selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair", "track"]
+        },
+        "bitrate": 8000
+      }
+    },
+    {
+      "name": "LoopbackTest",
+      "tupleSize": 1,
+      "description": "This test check the ICEConnection state of one browser on appr.tc in loopback mode",
+      "testImpl": "org.webrtc.kite.apprtc.tests.LoopbackTest",
+      "payload" : {
+        "url": "https://appr.tc",
+        "getStats" : {
+          "enabled": true,
+          "statsCollectionTime": 2,
+          "statsCollectionInterval": 1,
+          "peerConnections": ["appController.call_.pcClient_.pc_"],
+          "selectedStats" : ["inbound-rtp", "outbound-rtp", "candidate-pair", "track"]
+        },
+        "bitrate": 8000
+      }
+    }
+  ],
+  "clients": [
+    {
+      "browserName": "chrome",
+      "version": "108",
+      "platform": "localhost"
+    }
+  ]
+}

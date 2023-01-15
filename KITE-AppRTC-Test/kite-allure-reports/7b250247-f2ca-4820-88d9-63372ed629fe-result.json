@@ -1,0 +1,242 @@
+
+{
+    "name": "LIN_fi_107-LIN_fi_107 (2022-12-14-004203) - 3",
+    "start": 1670967724827,
+    "stop": 1670967724827,
+    "description": "LIN_fi_107-LIN_fi_107 (2022-12-14-004203)",
+    "stage": "finished",
+    "status": "FAILED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1670967723632,
+            "stop": 1670967724826,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1670967723635,
+            "stop": 1670967724815,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "KiteGridException",
+                    "type": "text/plain",
+                    "source": "2c301926-2318-45e3-94eb-0e7acb892a0c-attachment.plain"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "Exception while populating webdrivers: \r\norg.webrtc.kite.exception.KiteGridException: WebDriverException creating webdriver for \n{\"app\":false,\"kind\":\"browser\",\"logger\":{\"name\":\"org.webrtc.kite.config.client.Client\",\"debugEnabled\":true},\"count\":5,\"clientIndex\":1,\"fullReset\":false,\"jsonConfig\":{\"headless\":\"false\",\"browserName\":{},\"version\":{},\"platform\":{}},\"capability\":{\"headless\":false,\"windowSize\":\"1920,1200\",\"technologyPreview\":false,\"useFakeMedia\":true,\"flags\":[],\"extraCapabilities\":{},\"maxInstances\":5,\"gateway\":\"none\"},\"paas\":{\"specList\":[],\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"NONE\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"availableSlots\":0,\"type\":\"local\",\"region\":\"NC\",\"url\":\"http://localhost:4444/wd/hub\"},\"name\":\"1\",\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"exclude\":false,\"browserSpecs\":{\"extension\":\"\",\"profile\":\"\",\"driverString\":\"-Dwebdriver.gecko.driver=./geckodriver\",\"browserName\":\"firefox\",\"version\":\"107\",\"deviceName\":\"unknown\",\"platform\":\"LINUX\"},\"region\":\"NC\"}:\nError forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}\nCommand duration or timeout: 585 milliseconds\n\tat org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)\n\tat org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1670967723635,
+            "stop": 1670967724826,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "KiteGridException",
+                    "type": "text/plain",
+                    "source": "2e6caf48-992c-4d6b-951d-dc27580b03a1-attachment.plain"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "Exception while populating webdrivers: \r\norg.webrtc.kite.exception.KiteGridException: WebDriverException creating webdriver for \n{\"app\":false,\"kind\":\"browser\",\"logger\":{\"name\":\"org.webrtc.kite.config.client.Client\",\"debugEnabled\":true},\"count\":5,\"clientIndex\":1,\"fullReset\":false,\"jsonConfig\":{\"headless\":\"false\",\"browserName\":{},\"version\":{},\"platform\":{}},\"capability\":{\"headless\":false,\"windowSize\":\"1920,1200\",\"technologyPreview\":false,\"useFakeMedia\":true,\"flags\":[],\"extraCapabilities\":{},\"maxInstances\":5,\"gateway\":\"none\"},\"paas\":{\"specList\":[],\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"NONE\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"availableSlots\":0,\"type\":\"local\",\"region\":\"NC\",\"url\":\"http://localhost:4444/wd/hub\"},\"name\":\"0\",\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"exclude\":false,\"browserSpecs\":{\"extension\":\"\",\"profile\":\"\",\"driverString\":\"-Dwebdriver.gecko.driver=./geckodriver\",\"browserName\":\"firefox\",\"version\":\"107\",\"deviceName\":\"unknown\",\"platform\":\"LINUX\"},\"region\":\"NC\"}:\nError forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}\nCommand duration or timeout: 598 milliseconds\n\tat org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)\n\tat org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 0: Open apprtc web page and join a room",
+            "start": 1670967724827,
+            "stop": 1670967724827,
+            "description": "Open apprtc web page and join a room",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 0: Verify that the ICE connection state is 'connected'",
+            "start": 1670967724827,
+            "stop": 1670967724827,
+            "description": "Verify that the ICE connection state is 'connected'",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 0: Verify that the remote video is actually playing",
+            "start": 1670967724827,
+            "stop": 1670967724827,
+            "description": "Verify that the remote video is actually playing",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 0: Getting stats from [\"appController.call_.pcClient_.pc_\"]",
+            "start": 1670967724827,
+            "stop": 1670967724827,
+            "description": "Getting stats from [\"appController.call_.pcClient_.pc_\"]",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 0: Get a screenshot",
+            "start": 1670967724827,
+            "stop": 1670967724827,
+            "description": "Get a screenshot",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1670967724828,
+            "stop": 1670967724828,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Exception while populating webdrivers: \r\norg.webrtc.kite.exception.KiteGridException: WebDriverException creating webdriver for \n{\"app\":false,\"kind\":\"browser\",\"logger\":{\"name\":\"org.webrtc.kite.config.client.Client\",\"debugEnabled\":true},\"count\":5,\"clientIndex\":1,\"fullReset\":false,\"jsonConfig\":{\"headless\":\"false\",\"browserName\":{},\"version\":{},\"platform\":{}},\"capability\":{\"headless\":false,\"windowSize\":\"1920,1200\",\"technologyPreview\":false,\"useFakeMedia\":true,\"flags\":[],\"extraCapabilities\":{},\"maxInstances\":5,\"gateway\":\"none\"},\"paas\":{\"specList\":[],\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"NONE\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"availableSlots\":0,\"type\":\"local\",\"region\":\"NC\",\"url\":\"http://localhost:4444/wd/hub\"},\"name\":\"1\",\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"exclude\":false,\"browserSpecs\":{\"extension\":\"\",\"profile\":\"\",\"driverString\":\"-Dwebdriver.gecko.driver=./geckodriver\",\"browserName\":\"firefox\",\"version\":\"107\",\"deviceName\":\"unknown\",\"platform\":\"LINUX\"},\"region\":\"NC\"}:\nError forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEEFjlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEEFjlUAAAAAAAA...}, platformName: linux, version: 107}\nCommand duration or timeout: 585 milliseconds\n\tat org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)\n\tat org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    "uuid": "7b250247-f2ca-4820-88d9-63372ed629fe",
+    "fullName": "org.webrtc.kite.apprtc.tests.IceConnectionTest",
+    "historyId": "b1be366e-aa6a-42b9-ba8d-a758858a07d2",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.apprtc.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.apprtc.tests.IceConnectionTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "ethem"
+        },
+        {
+            "name": "suite",
+            "value": "IceConnectionTest  (2022-12-14-004159)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "IceConnectionTest [2022-12-14-004159]"
+        }
+    ]
+}

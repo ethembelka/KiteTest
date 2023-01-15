@@ -1,0 +1,302 @@
+
+{
+    "name": "LIN_ch-LIN_ch (2023-01-06-004611) - 0",
+    "start": 1672955172431,
+    "stop": 1672955184788,
+    "description": "LIN_ch-LIN_ch (2023-01-06-004611)",
+    "stage": "finished",
+    "status": "PASSED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1672955171395,
+            "stop": 1672955172428,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672955171399,
+            "stop": 1672955172391,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672955171399,
+            "stop": 1672955172392,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-82acf - 1: Open https://meet.jit.si/ethem",
+            "start": 1672955172431,
+            "stop": 1672955175147,
+            "description": "Open https://meet.jit.si/ethem",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-c687a - 0: Open https://meet.jit.si/ethem",
+            "start": 1672955172432,
+            "stop": 1672955175467,
+            "description": "Open https://meet.jit.si/ethem",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-82acf - 1: Checking if Sent Video is playing properly",
+            "start": 1672955175148,
+            "stop": 1672955176240,
+            "description": "Checking if Sent Video is playing properly",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-c687a - 0: Checking if Sent Video is playing properly",
+            "start": 1672955175467,
+            "stop": 1672955177477,
+            "description": "Checking if Sent Video is playing properly",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-82acf - 1: Check the other videos are being received OK",
+            "start": 1672955176240,
+            "stop": 1672955183239,
+            "description": "Check the other videos are being received OK",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-82acf - 1: Get a screenshot",
+            "start": 1672955183239,
+            "stop": 1672955183697,
+            "description": "Get a screenshot",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "ScreenshotStep_2023-01-06-004623",
+                    "type": "image/png",
+                    "source": "bce99ba8-0a3f-4381-ad7d-7fda239bdad0-attachment.png"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-c687a - 0: Check the other videos are being received OK",
+            "start": 1672955177478,
+            "stop": 1672955184489,
+            "description": "Check the other videos are being received OK",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-c687a - 0: Get a screenshot",
+            "start": 1672955184489,
+            "stop": 1672955184788,
+            "description": "Get a screenshot",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "ScreenshotStep_2023-01-06-004624",
+                    "type": "image/png",
+                    "source": "017ef887-dbd4-4fa4-9309-2b8a5ccbdb52-attachment.png"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1672955184789,
+            "stop": 1672955184987,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "The test has passed successfully!"
+    },
+    "uuid": "c454f07c-a24f-40a9-91dc-66f7b4c5ff96",
+    "fullName": "org.webrtc.kite.jitsitutorial.KiteJitsiTutorialTest",
+    "historyId": "a1b11fd9-0a49-464b-834e-a07d63a90ab8",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.jitsitutorial"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.jitsitutorial.KiteJitsiTutorialTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "ethem"
+        },
+        {
+            "name": "suite",
+            "value": "JitsiTutorial Test  (2023-01-06-004611)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "JitsiTutorial  [2023-01-06-004611] (2023-01-06-004611)"
+        }
+    ]
+}

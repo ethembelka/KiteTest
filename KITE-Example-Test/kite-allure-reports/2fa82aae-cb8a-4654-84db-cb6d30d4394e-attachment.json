@@ -1,0 +1,8 @@
+
+{
+    "known": true,
+    "muted": false,
+    "flaky": false,
+    "message": "The title of the first Google result was not correct: \nExpected: CoSMo Software - Cosmo Software but found Software & Consulting for the Digital Transformation of Companies | COSMO CONSULT\r\n",
+    "trace": "io.cosmosoftware.kite.exception.KiteTestException: The title of the first Google result was not correct: \nExpected: CoSMo Software - Cosmo Software but found Software & Consulting for the Digital Transformation of Companies | COSMO CONSULT\r\n\n\tat org.webrtc.kite.example.checks.GoogleFirstResultCheck.step(GoogleFirstResultCheck.java:27)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+}

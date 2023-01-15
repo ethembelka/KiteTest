@@ -1,0 +1,357 @@
+
+{
+    "name": "LIN_ch_108-LIN_fi_107 (2022-12-26-201814) - 1",
+    "start": 1672075095897,
+    "stop": 1672075095898,
+    "description": "LIN_ch_108-LIN_fi_107 (2022-12-26-201814)",
+    "stage": "finished",
+    "status": "FAILED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1672075094163,
+            "stop": 1672075095895,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672075094166,
+            "stop": 1672075094812,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1672075094168,
+            "stop": 1672075095894,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "KiteGridException",
+                    "type": "text/plain",
+                    "source": "13577dca-6dac-4e27-8a2e-71717e74f9cd-attachment.plain"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "Exception while populating webdrivers: \r\norg.webrtc.kite.exception.KiteGridException: WebDriverException creating webdriver for \n{\"app\":false,\"kind\":\"browser\",\"logger\":{\"name\":\"org.webrtc.kite.config.client.Client\",\"debugEnabled\":true},\"count\":5,\"clientIndex\":1,\"fullReset\":false,\"jsonConfig\":{\"headless\":\"false\",\"browserName\":{},\"version\":{},\"platform\":{}},\"capability\":{\"headless\":false,\"windowSize\":\"1920,1200\",\"technologyPreview\":false,\"useFakeMedia\":true,\"flags\":[],\"extraCapabilities\":{},\"maxInstances\":5,\"gateway\":\"none\"},\"paas\":{\"specList\":[],\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"NONE\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"availableSlots\":0,\"type\":\"local\",\"region\":\"NC\",\"url\":\"http://localhost:4444/wd/hub\"},\"name\":\"1\",\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"exclude\":false,\"browserSpecs\":{\"extension\":\"\",\"profile\":\"\",\"driverString\":\"-Dwebdriver.gecko.driver=./geckodriver\",\"browserName\":\"firefox\",\"version\":\"107\",\"deviceName\":\"unknown\",\"platform\":\"LINUX\"},\"region\":\"NC\"}:\nError forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEeimlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEeimlUAAAAAAAA...}, platformName: linux, version: 107}\nCommand duration or timeout: 590 milliseconds\n\tat org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)\n\tat org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+            }
+        },
+        {
+            "name": "ch108_LINUX-93ec1 - 0: Open apprtc web page and join a room",
+            "start": 1672075095896,
+            "stop": 1672075095896,
+            "description": "Open apprtc web page and join a room",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-93ec1 - 0: Verify that the ICE connection state is 'connected'",
+            "start": 1672075095896,
+            "stop": 1672075095897,
+            "description": "Verify that the ICE connection state is 'connected'",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-93ec1 - 0: Verify that the remote video is actually playing",
+            "start": 1672075095897,
+            "stop": 1672075095897,
+            "description": "Verify that the remote video is actually playing",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-93ec1 - 0: Getting stats from [\"appController.call_.pcClient_.pc_\"]",
+            "start": 1672075095897,
+            "stop": 1672075095897,
+            "description": "Getting stats from [\"appController.call_.pcClient_.pc_\"]",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 1: Open apprtc web page and join a room",
+            "start": 1672075095897,
+            "stop": 1672075095897,
+            "description": "Open apprtc web page and join a room",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-93ec1 - 0: Get a screenshot",
+            "start": 1672075095897,
+            "stop": 1672075095897,
+            "description": "Get a screenshot",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 1: Verify that the ICE connection state is 'connected'",
+            "start": 1672075095897,
+            "stop": 1672075095897,
+            "description": "Verify that the ICE connection state is 'connected'",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch108_LINUX-93ec1 - 0: Gets the webrtc-internals dump.",
+            "start": 1672075095897,
+            "stop": 1672075095897,
+            "description": "Gets the webrtc-internals dump.",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 1: Verify that the remote video is actually playing",
+            "start": 1672075095897,
+            "stop": 1672075095898,
+            "description": "Verify that the remote video is actually playing",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 1: Getting stats from [\"appController.call_.pcClient_.pc_\"]",
+            "start": 1672075095898,
+            "stop": 1672075095898,
+            "description": "Getting stats from [\"appController.call_.pcClient_.pc_\"]",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 1: Get a screenshot",
+            "start": 1672075095898,
+            "stop": 1672075095898,
+            "description": "Get a screenshot",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1672075095899,
+            "stop": 1672075095965,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Exception while populating webdrivers: \r\norg.webrtc.kite.exception.KiteGridException: WebDriverException creating webdriver for \n{\"app\":false,\"kind\":\"browser\",\"logger\":{\"name\":\"org.webrtc.kite.config.client.Client\",\"debugEnabled\":true},\"count\":5,\"clientIndex\":1,\"fullReset\":false,\"jsonConfig\":{\"headless\":\"false\",\"browserName\":{},\"version\":{},\"platform\":{}},\"capability\":{\"headless\":false,\"windowSize\":\"1920,1200\",\"technologyPreview\":false,\"useFakeMedia\":true,\"flags\":[],\"extraCapabilities\":{},\"maxInstances\":5,\"gateway\":\"none\"},\"paas\":{\"specList\":[],\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"NONE\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"availableSlots\":0,\"type\":\"local\",\"region\":\"NC\",\"url\":\"http://localhost:4444/wd/hub\"},\"name\":\"1\",\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"exclude\":false,\"browserSpecs\":{\"extension\":\"\",\"profile\":\"\",\"driverString\":\"-Dwebdriver.gecko.driver=./geckodriver\",\"browserName\":\"firefox\",\"version\":\"107\",\"deviceName\":\"unknown\",\"platform\":\"LINUX\"},\"region\":\"NC\"}:\nError forwarding the new session cannot find : Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: UEsDBBQACAgIAEeimlUAAAAAAAA..., loggingPrefs: org.openqa.selenium.logging..., moz:firefoxOptions: {args: [-window-size 1920,1200], profile: UEsDBBQACAgIAEeimlUAAAAAAAA...}, platformName: linux, version: 107}\nCommand duration or timeout: 590 milliseconds\n\tat org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)\n\tat org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\n\tat org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    },
+    "uuid": "ca243210-e3c5-4342-aee0-6334635e3396",
+    "fullName": "org.webrtc.kite.apprtc.tests.IceConnectionTest",
+    "historyId": "797c09aa-2dda-4b4b-a6ca-bc4cd95b9d36",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.apprtc.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.apprtc.tests.IceConnectionTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "ethem"
+        },
+        {
+            "name": "suite",
+            "value": "IceConnectionTest  (2022-12-26-201811)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "IceConnectionTest [2022-12-26-201811]"
+        }
+    ]
+}
